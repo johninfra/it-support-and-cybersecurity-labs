@@ -1,5 +1,9 @@
 ## Key Skills and Experience
 
+## About This Repository
+
+This repository documents hands-on IT support and cybersecurity labs designed to simulate real-world help desk and system administration tasks. Each lab reflects practical experience in troubleshooting, user account management, and network diagnostics.
+
 - Active Directory user support including password resets, account unlocks, and permission management  
 - Network troubleshooting using ping, ipconfig, DNS diagnostics, and connectivity testing  
 - Virtual machine setup and management using VMware Workstation  
