@@ -163,5 +163,12 @@ This lab demonstrates how to configure Active Directory users, security groups, 
 
 ---
 
+## Skills Demonstrated
+- Active Directory domain configuration  
+- Windows Server administration  
+- Domain controller setup and management  
+- Client to domain joining process  
+- Network authentication concepts  
+
 ## Conclusion
 This lab simulates a real world enterprise IT environment where users require controlled access to shared resources. By using security groups instead of assigning permissions directly to users, access control becomes scalable and secure. This lab also reinforced troubleshooting techniques and validation methods which are critical in IT support and system administration roles.
