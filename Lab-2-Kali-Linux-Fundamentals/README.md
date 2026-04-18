@@ -31,9 +31,9 @@ cat
 sudo  
 
 ## Results
-Successfully navigated the Linux file system  
-Created and managed files and directories  
-Applied and modified file permissions  
+- Successfully navigated the Linux file system  
+- Created and managed files and directories  
+- Applied and modified file permissions  
 
 ## Key Takeaways
 - Gained hands on experience with Linux commands  
