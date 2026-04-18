@@ -35,5 +35,12 @@ This lab demonstrates how to create and manage users and groups in Active Direct
 
 ---
 
+## Skills Demonstrated
+- Active Directory user provisioning  
+- Group membership management  
+- Permission assignment using AD  
+- Organizational unit navigation  
+- Enterprise user management workflows  
+
 ## Result
 Successfully controlled access to a shared resource using Active Directory groups.
