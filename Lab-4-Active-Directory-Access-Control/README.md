@@ -1,147 +1,167 @@
-# Lab 4 - Active Directory Group Based Access Control and Network Share Permissions Lab
+# Lab 4 - Active Directory Group Based Access Control and Network Share Permissions
 
 ## Overview
-This lab demonstrates how to configure Active Directory users, security groups, and network shared folder permissions in a Windows domain environment. The goal was to simulate a real world IT scenario where access to shared resources is controlled using group based permissions and NTFS security across multiple departments.
+This lab demonstrates how to configure Active Directory users, security groups, and shared folder permissions in a Windows domain environment. The objective was to simulate a real world IT scenario where access to shared resources is controlled using group based permissions and NTFS security.
+
+---
 
 ## Lab Setup
-- Host Machine: Windows Laptop
-- Virtualization: VMware Workstation Player
-- Domain Controller: Windows Server 2022 DC1
-- Client Machine: Windows 10 or Windows 11 VM domain joined
-- Domain: corp.local
-- Network Type: NAT same subnet
+- Host Machine: Windows Laptop  
+- Virtualization: VMware Workstation Player  
+- Domain Controller: Windows Server 2022 DC1  
+- Client Machine: Windows 10 or Windows 11 VM domain joined  
+- Domain: corp.local  
+- Network Type: NAT same subnet  
+
+---
 
 ## Tools Used
-- Active Directory Users and Computers
-- Server Manager
-- File Explorer Network Shares
-- Command Prompt
-- Group Policy gpupdate
-- whoami commands
+- Active Directory Users and Computers  
+- Server Manager  
+- File Explorer Network Shares  
+- Command Prompt  
+- gpupdate  
+- whoami  
+
+---
 
 ## Network Configuration
-- Domain Controller DC1 assigned private IP address
-- Client VM assigned private IP address on same subnet
-- Verified connectivity using ping between machines
-- Client successfully joined to domain corp.local
+- Domain Controller assigned private IP address  
+- Client VM assigned private IP address on same subnet  
+- Verified connectivity using ping  
+- Client successfully joined domain  
+
+---
 
 ## Tasks Performed
 
-### Active Directory User Creation
-- Opened Active Directory Users and Computers
-- Navigated to corp.local Users
-- Created user John Test with username jtest
-- Created user HR User with username hr_user
-- Set passwords and enabled both accounts
+### 1. Active Directory User Creation
+- Opened Active Directory Users and Computers  
+- Navigated to corp.local Users  
+- Created user John Test (jtest)  
+- Created user HR User (hr_user)  
+- Set passwords and enabled accounts  
 
-### Security Group Creation
-- Created security group SharedFolderUsers
-- Created security group HR_Users
-- Set both groups as Global Security groups
-- Added jtest to SharedFolderUsers
-- Added hr_user to HR_Users
-
-### Shared Folder Creation
-- Created folder C:\SharedFolder
-- Created folder C:\HR_Folder
-- Enabled sharing for both folders
-- SharedFolder accessible at \\DC1\SharedFolder
-- HR_Folder accessible at \\DC1\HR_Folder
-
-### Share Permissions Configuration
-- Configured sharing permissions for SharedFolder
-- Removed default access where necessary
-- Added SharedFolderUsers and granted permissions
-- Configured sharing permissions for HR_Folder
-- Removed default access where necessary
-- Added HR_Users and granted permissions
-
-### NTFS Permissions Configuration
-- Opened folder properties then Security then Advanced
-- Disabled inheritance on both folders
-- Converted inherited permissions into explicit permissions
-- Removed default Users CORP Users group
-- Added SharedFolderUsers with Modify or Full Control
-- Added HR_Users with Modify or Full Control
-- Ensured Administrators and SYSTEM retained Full Control
-
-### Client Machine Testing
-- Logged into client VM as jtest
-- Accessed \\DC1\SharedFolder successfully
-- Attempted to access \\DC1\HR_Folder and received access denied
-- Logged into client VM as hr_user
-- Accessed \\DC1\HR_Folder successfully
-- Attempted to access \\DC1\SharedFolder and received access denied
-
-### Access Verification
-- Before configuration users received access denied errors
-- After configuration users accessed only authorized folders
-- Users were restricted from unauthorized folders
-
-### Group Membership Verification
-- Opened Command Prompt
-- Ran whoami /groups
-- Confirmed jtest is part of SharedFolderUsers
-- Confirmed hr_user is part of HR_Users
-
-### Group Policy Update
-- Ran gpupdate /force
-- Ensured updated permissions were applied
-- Logged out and logged back in to refresh session
-
-### Permission Troubleshooting
-- Removed jtest from SharedFolderUsers
-- Verified access was denied
-- Re added jtest to SharedFolderUsers
-- Logged out and logged back in
-- Verified access was restored
-
-### Inheritance and Security Control
-- Observed default inherited permissions
-- Disabled inheritance to enforce custom control
-- Removed unnecessary default groups
-- Implemented least privilege access model
-
-## Results
-- Successfully created multiple Active Directory users and groups
-- Implemented group based access control
-- Verified users only access authorized folders
-- Demonstrated separation between departments
-- Successfully tested access denial and restoration
-- Confirmed proper NTFS and share permission configuration
-
-## Key Takeaways
-- Active Directory user and group management
-- NTFS versus share permissions
-- Permission inheritance and control
-- Role based access control
-- Department level access segmentation
-- SMB network file sharing
-- Group membership impact on access
-- Troubleshooting permission issues
-
-## Conclusion
-This lab simulates a real world enterprise IT environment where multiple users and departments require controlled access to shared resources. By using security groups instead of assigning permissions directly to users, access control becomes scalable, secure, and easier to manage. The lab also demonstrates how to troubleshoot and validate permissions which is a critical skill in IT support and system administration roles.
-
-## Screenshots
-
-### Active Directory User Creation
 ![User Creation](screenshots/user-creation.png)
 
-### Group Membership Configuration
+---
+
+### 2. Security Group Creation
+- Created SharedFolderUsers group  
+- Created HR_Users group  
+- Set both as Global Security groups  
+- Added jtest to SharedFolderUsers  
+- Added hr_user to HR_Users  
+
 ![Group Membership](screenshots/group-membership.png)
 
-### Shared Folder Permissions
+---
+
+### 3. Shared Folder Creation
+- Created C:\SharedFolder  
+- Created C:\HR_Folder  
+- Enabled sharing  
+- SharedFolder accessible at \\DC1\SharedFolder  
+- HR_Folder accessible at \\DC1\HR_Folder  
+
+---
+
+### 4. Share Permissions Configuration
+- Configured sharing permissions for SharedFolder  
+- Removed unnecessary default access  
+- Added SharedFolderUsers with permissions  
+- Configured sharing permissions for HR_Folder  
+- Added HR_Users with permissions  
+
 ![Share Permissions](screenshots/shared-folder.png)
 
-### NTFS Permissions Configuration
+---
+
+### 5. NTFS Permissions Configuration
+- Opened folder properties Security Advanced  
+- Disabled inheritance  
+- Converted inherited permissions  
+- Removed default Users group  
+- Added SharedFolderUsers permissions  
+- Added HR_Users permissions  
+- Kept Administrators and SYSTEM full control  
+
 ![NTFS Permissions](screenshots/ntfs-permissions.png)
 
-### Access Denied Test
+---
+
+### 6. Client Machine Testing
+
+#### Access Denied Test
+- Logged in as jtest  
+- Accessed SharedFolder successfully  
+- Attempted HR_Folder and received access denied  
+
 ![Access Denied](screenshots/access-denied.png)
 
-### Successful Access Test
+---
+
+#### Successful Access Test
+- Logged in as hr_user  
+- Accessed HR_Folder successfully  
+- Attempted SharedFolder and received access denied  
+
 ![Access Success](screenshots/access-success.png)
 
-### Group Verification Command
+---
+
+### 7. Group Membership Verification
+- Opened Command Prompt  
+- Ran whoami /groups  
+- Verified group membership for each user  
+
 ![Whoami Groups](screenshots/whoami-groups.png)
+
+---
+
+### 8. Group Policy Update
+- Ran gpupdate /force  
+- Logged out and logged back in  
+- Confirmed permissions applied  
+
+---
+
+### 9. Permission Troubleshooting
+- Removed jtest from SharedFolderUsers  
+- Verified access was denied  
+- Re added jtest  
+- Logged out and logged back in  
+- Verified access restored  
+
+---
+
+### 10. Inheritance and Security Control
+- Observed inherited permissions  
+- Disabled inheritance  
+- Removed unnecessary default groups  
+- Applied least privilege model  
+
+---
+
+## Results
+- Created Active Directory users and groups  
+- Implemented group based access control  
+- Verified proper access and restrictions  
+- Demonstrated department level separation  
+- Successfully tested permission changes  
+
+---
+
+## Key Takeaways
+- Active Directory user and group management  
+- NTFS vs share permissions  
+- Permission inheritance control  
+- Role based access control  
+- File sharing in a domain environment  
+- Group membership directly impacts access  
+- Troubleshooting permission issues  
+
+---
+
+## Conclusion
+This lab simulates a real world enterprise IT environment where users require controlled access to shared resources. By using security groups instead of assigning permissions directly to users, access control becomes scalable and secure. This lab also reinforced troubleshooting techniques and validation methods which are critical in IT support and system administration roles.
