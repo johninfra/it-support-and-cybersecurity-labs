@@ -95,5 +95,12 @@ These services indicate typical Windows network functionality and potential atta
 
 ---
 
+## Skills Demonstrated
+- Network scanning using Nmap  
+- IP addressing and subnet identification  
+- Basic penetration testing concepts  
+- Command line usage in Linux and Windows  
+- Identifying open ports and services  
+
 ## Conclusion
 This lab demonstrated the fundamentals of network reconnaissance using Kali Linux and Nmap in a controlled environment. I successfully identified IP addresses, verified connectivity, and scanned a target machine for open ports and services. This process helped me understand how systems communicate and how attackers gather information during the early stages of penetration testing. I also gained hands on experience using command line tools and interpreting scan results. Overall, this lab built a strong foundation for more advanced cybersecurity tasks such as vulnerability scanning and exploitation.
