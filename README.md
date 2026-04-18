@@ -1,6 +1,6 @@
 # IT Support and Cybersecurity Home Labs
 
-This repository showcases hands on labs designed to simulate real world IT support and cybersecurity scenarios.
+This repository showcases hands on IT support and cybersecurity labs simulating real world troubleshooting and system administration scenarios.
 
 ## Labs Included
 
@@ -12,9 +12,14 @@ This repository showcases hands on labs designed to simulate real world IT suppo
 
 ## Skills Demonstrated
 
-- Network troubleshooting and diagnostics
-- Command line proficiency (Linux and Windows)
-- Virtualization using VMware
-- Active Directory fundamentals
-- File system permissions and access control
-- Real world help desk problem solving
+- Network troubleshooting and diagnostics (ping, IP configuration, connectivity repair)
+- Command line operations (Linux and Windows environments)
+- Virtual machine configuration using VMware
+- Active Directory user and access control management
+- File system permissions and security (Linux chmod, Windows NTFS)
+- Network file sharing and drive mapping
+- Real world help desk troubleshooting workflows
+
+## Career Objective
+
+Seeking an entry level IT support or help desk role where I can apply hands on troubleshooting skills and continue developing in cybersecurity.
