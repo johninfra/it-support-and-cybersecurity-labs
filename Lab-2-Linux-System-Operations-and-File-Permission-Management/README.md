@@ -104,5 +104,12 @@ Confirmed the script could execute properly.
 
 ---
 
+## Skills Demonstrated
+- Linux command line navigation  
+- File and directory management  
+- File permission modification using chmod  
+- User and group permission concepts  
+- Understanding Linux file system structure  
+
 ## Conclusion
 This lab provided hands on experience with essential Linux system operations and file permission management. By creating and removing directories, using elevated privileges, and modifying file permissions, I developed a strong foundation in Linux command line usage. These skills are fundamental for IT support, system administration, and cybersecurity roles.
