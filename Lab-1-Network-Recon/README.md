@@ -39,10 +39,10 @@ This lab demonstrates basic network reconnaissance using Kali Linux to scan a Wi
 
 ## Screenshots
 
-Nmap Scan showing open ports and services:
+### Nmap Scan
 ![Nmap Scan](screenshots/nmap-scan.png)
 
-Ping test confirming connectivity:
+### Ping Test
 ![Ping Test](screenshots/ping-test.png)
 
 ## Future Improvements
