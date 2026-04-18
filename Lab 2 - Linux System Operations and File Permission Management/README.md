@@ -1,4 +1,4 @@
-# Lab 1 - Network Reconnaissance
+# Lab 2 - Linux System Operations and File Permission Management
 
 ## Overview
 This lab demonstrates basic network reconnaissance using Kali Linux to scan a Windows machine. The goal was to simulate real world penetration testing techniques by identifying open ports and services in a controlled environment.
@@ -84,6 +84,13 @@ The Nmap scan shows that the target Windows machine is online and has open ports
 - Learned how attackers gather information during the reconnaissance phase  
 
 ---
+
+## Skills Demonstrated
+- Network reconnaissance and host discovery
+- Port scanning and service enumeration using Nmap
+- Identification of open ports and network services
+- Basic analysis of attack surface and exposed services
+- Understanding of TCP IP communication within a subnet
 
 ## Conclusion
 This lab demonstrated the fundamentals of network reconnaissance using Kali Linux and Nmap in a controlled environment. I successfully identified IP addresses, verified connectivity, and scanned a target machine for open ports and services. This process helped me understand how systems communicate and how attackers gather information during the early stages of penetration testing. I also gained hands on experience using command line tools and interpreting scan results. Overall, this lab built a strong foundation for more advanced cybersecurity tasks such as vulnerability scanning and exploitation.
