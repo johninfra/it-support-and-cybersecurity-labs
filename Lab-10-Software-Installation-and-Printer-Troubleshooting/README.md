@@ -35,7 +35,7 @@ Ran the installer and completed the setup process using the default installation
 ### 3. Verified Application Launch  
 Opened the installed application to confirm the software was installed successfully and functioning properly.
 
-![Software Opened](screenshots/lab10-software-opened.png)
+![Software Opened](screenshots/lab10-software-open.png)
 
 ---
 
