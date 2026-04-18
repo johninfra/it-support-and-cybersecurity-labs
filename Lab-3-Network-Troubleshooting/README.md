@@ -34,7 +34,22 @@ The system lost network connectivity and was unable to reach the gateway or inte
 
 ## Troubleshooting Steps
 
-### 1. Attempted to Renew IP Configuration
+### 1. Tested Connectivity (Initial Failure)
+Ran:
+
+ping 192.168.110.1  
+ping 8.8.8.8  
+
+Result:
+- Gateway unreachable  
+- Internet unreachable  
+- 100 percent packet loss  
+
+![Ping Failure](screenshots/ping-failure.png)
+
+---
+
+### 2. Attempted to Renew IP Configuration
 Ran:
 
 ipconfig /renew
@@ -43,7 +58,7 @@ The system initially failed to restore proper network connectivity.
 
 ---
 
-### 2. Reset Network Stack
+### 3. Reset Network Stack
 Ran:
 
 netsh winsock reset  
@@ -55,7 +70,7 @@ This reset the Windows network stack and cleared any corrupted settings.
 
 ---
 
-### 3. Identified Correct Gateway
+### 4. Identified Correct Gateway
 Discovered that the VMware NAT gateway was:
 
 192.168.110.2
@@ -64,21 +79,7 @@ instead of the commonly expected .1
 
 ---
 
-### 4. Tested Connectivity
-
-#### Failed Attempt
-Ran:
-
-ping 192.168.110.1  
-
-Result:
-- 100 percent packet loss  
-
-![Ping Failure](screenshots/ping-failure.png)
-
----
-
-#### Successful Test
+### 5. Retested Connectivity (Successful)
 Ran:
 
 ping 192.168.110.2  
@@ -93,7 +94,7 @@ Results:
 
 ---
 
-### 5. Verified Final Configuration
+### 6. Verified Final Configuration
 Ran:
 
 ipconfig /all
@@ -108,7 +109,7 @@ Confirmed:
 ---
 
 ## Results
-- Successfully restored network connectivity by resetting the network stack, renewing DHCP configuration, and identifying the correct gateway within the NAT network.
+Successfully restored network connectivity by resetting the network stack, renewing DHCP configuration, and identifying the correct gateway within the NAT network.
 
 ---
 
@@ -121,4 +122,4 @@ Confirmed:
 ---
 
 ## Conclusion
-This lab demonstrated a real world network troubleshooting scenario where connectivity was lost after releasing the IP configuration. By resetting the network stack, identifying the correct gateway, and verifying network settings, full connectivity was restored. This exercise reinforced practical troubleshooting skills used in IT support roles.
+This lab demonstrated a real world network troubleshooting scenario where connectivity was lost after releasing the IP configuration. By systematically diagnosing the issue, resetting the network stack, identifying the correct gateway, and verifying network settings, full connectivity was restored. This exercise reinforced practical troubleshooting skills used in IT support roles.
