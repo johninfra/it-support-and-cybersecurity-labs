@@ -1,96 +1,108 @@
 # Lab 2 - Linux System Operations and File Permission Management
 
 ## Overview
-This lab demonstrates basic network reconnaissance using Kali Linux to scan a Windows machine. The goal was to simulate real world penetration testing techniques by identifying open ports and services in a controlled environment.
+This lab demonstrates basic Linux command line operations and file permission management using Kali Linux. The objective was to gain hands on experience navigating the file system, creating and deleting directories, using elevated privileges, and modifying file permissions for scripts.
 
 ---
 
 ## Lab Setup
 - Host Machine: Windows Laptop  
 - Virtualization: VMware Workstation Player  
-- Attacker Machine: Kali Linux  
-- Target Machine: Windows VM  
-- Network Type: NAT (same subnet)  
+- Operating System: Kali Linux VM  
+- Network Type: NAT  
 
 ---
 
 ## Tools Used
-- Nmap  
 - Kali Linux Terminal  
-- Command Prompt  
+- Linux Commands: sudo, mkdir, rm, chmod, ls  
 
 ---
 
 ## Tasks Performed
 
-### 1. Identified IP Addresses
+### 1. Accessed Kali Linux Terminal
+Opened the terminal and navigated the Linux file system using basic commands.
 
-On Kali Linux:
-ip a
-
-On Windows:
-ipconfig
-
-This step was used to determine the IP addresses of both the attacker and target machines.
-
-![Kali IP](screenshots/kali-ip.png)
-![Windows IP](screenshots/windows-ip.png)
+![Initial Terminal](screenshots/kali-initial-terminal.png)
 
 ---
 
-### 2. Verified Connectivity
+### 2. Created Directory
+Created a new directory using:
 
-Tested communication between machines using ping:
+mkdir test-directory
 
-ping [target IP]
+This demonstrates basic file system management.
 
-This confirmed both systems were on the same network and able to communicate.
-
-![Ping Test](screenshots/ping-test.png)
-
----
-
-### 3. Performed Nmap Scan
-
-Executed a service version scan using Nmap:
-
-nmap -Pn -sV [target IP]
-
-This command scans for open ports and identifies running services on the target machine.
-
-![Nmap Command](screenshots/nmap-command.png)
+![mkdir](screenshots/mkdir.png)
 
 ---
 
-### 4. Analyzed Scan Results
+### 3. Removed Directory
+Deleted the directory using:
 
-The Nmap scan shows that the target Windows machine is online and has open ports 139 (NetBIOS), 445 (SMB), and 443 (HTTPS), indicating active file sharing and network services.
+rm -r test-directory
 
-![Nmap Results](screenshots/nmap-results.png)
+This demonstrates how to safely remove files and directories.
+
+![rm](screenshots/rm.png)
+
+---
+
+### 4. Used sudo for Elevated Privileges
+Executed commands with administrative privileges using:
+
+sudo command
+
+This is required for system level changes.
+
+![sudo](screenshots/sudo.png)
+
+---
+
+### 5. Modified File Permissions
+Changed file permissions using:
+
+chmod 755 script.sh
+
+Permission breakdown:
+- Owner: read, write, execute  
+- Group: read, execute  
+- Others: read, execute  
+
+![File Permissions](screenshots/kali-file-permissions.png)
+
+---
+
+### 6. Verified Permissions and Script Execution
+Verified permissions using:
+
+ls -l script.sh
+
+Confirmed the script could execute properly.
+
+![Permissions and Script](screenshots/kali-file-permissions-and-scripting.png)
 
 ---
 
 ## Results
-- Successfully identified open ports on the target system  
-- Verified network connectivity between attacker and target  
-- Simulated a basic network reconnaissance scenario  
+- Successfully navigated the Linux file system  
+- Created and removed directories  
+- Executed commands with elevated privileges  
+- Modified and verified file permissions  
+- Executed scripts with proper access rights  
 
 ---
 
 ## Key Takeaways
-- Learned how to identify IP addresses on different operating systems  
-- Understood how to verify connectivity using ping  
-- Gained hands on experience performing port scans with Nmap  
-- Learned how attackers gather information during the reconnaissance phase  
+- Linux file system operations are command driven  
+- sudo is required for administrative actions  
+- chmod controls access levels for files  
+- Proper permissions are required to execute scripts  
+- Understanding file permissions is critical in cybersecurity and system administration  
 
 ---
 
-## Skills Demonstrated
-- Network reconnaissance and host discovery
-- Port scanning and service enumeration using Nmap
-- Identification of open ports and network services
-- Basic analysis of attack surface and exposed services
-- Understanding of TCP IP communication within a subnet
-
 ## Conclusion
-This lab demonstrated the fundamentals of network reconnaissance using Kali Linux and Nmap in a controlled environment. I successfully identified IP addresses, verified connectivity, and scanned a target machine for open ports and services. This process helped me understand how systems communicate and how attackers gather information during the early stages of penetration testing. I also gained hands on experience using command line tools and interpreting scan results. Overall, this lab built a strong foundation for more advanced cybersecurity tasks such as vulnerability scanning and exploitation.
+This lab provided hands on experience with essential Linux system operations and file permission management. By creating and removing directories, using elevated privileges, and modifying file permissions, I developed a strong foundation in Linux command line usage. These skills are fundamental for IT support, system administration, and cybersecurity roles.
