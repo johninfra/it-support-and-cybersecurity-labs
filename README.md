@@ -20,13 +20,13 @@ Created and managed domain users, groups, shared folders, and access controls in
 Configured a shared folder, assigned permissions, and mapped a network drive between systems in the same virtual network.
 
 ### Lab 06
-Add your lab 6 summary here.
+Created and managed domain users and security groups, assigned group based permissions, and verified access control within an Active Directory environment.
 
 ### Lab 07
-Add your lab 7 summary here.
+Simulated a real help desk scenario by diagnosing and resolving user issues remotely using system tools, command line, and structured troubleshooting steps.
 
 ### Lab 08
-Add your lab 8 summary here.
+Diagnosed and resolved network connectivity issues by analyzing DNS settings, verifying IP configuration, and restoring proper communication between systems.
 
 ### Lab 09 - Password Reset and Account Lockout Support
 Simulated a common help desk workflow by resetting a domain user password, unlocking a locked account, and verifying successful login and user context.
