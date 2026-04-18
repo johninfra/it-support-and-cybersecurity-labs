@@ -91,7 +91,7 @@ Confirmed:
 ---
 
 ## Results
-Successfully restored network connectivity by resetting the network stack, renewing DHCP configuration, and identifying the correct gateway within the NAT network.
+- Successfully restored network connectivity by resetting the network stack, renewing DHCP configuration, and identifying the correct gateway within the NAT network.
 
 ---
 
