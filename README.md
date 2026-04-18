@@ -18,7 +18,3 @@ This repository showcases hands on labs designed to simulate real world IT suppo
 - Active Directory fundamentals
 - File system permissions and access control
 - Real world help desk problem solving
-
-## Goal
-
-To build practical experience and transition into an entry level IT support or cybersecurity role.
