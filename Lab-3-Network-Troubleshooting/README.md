@@ -105,3 +105,19 @@ Confirmed:
 
 ## Conclusion
 This lab demonstrated a real world network troubleshooting scenario where connectivity was lost after releasing the IP configuration. By resetting the network stack, identifying the correct gateway, and verifying network settings, full connectivity was restored. This exercise reinforced practical troubleshooting skills used in IT support roles.
+
+
+## Screenshots
+
+
+### Ping Failure
+![Ping Failure](screenshots/ping-failure.png)
+
+### Network Reset
+![Network Reset](screenshots/network-reset.png)
+
+### Ping Success
+![Ping Success](screenshots/ping-success.png)
+
+### Final Configuration
+![Final Config](screenshots/ipconfig-final.png)
