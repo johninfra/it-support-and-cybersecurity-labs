@@ -28,5 +28,12 @@ This lab demonstrates how to diagnose and resolve DNS related network issues.
 
 ---
 
+## Skills Demonstrated
+- DNS troubleshooting and resolution  
+- Network connectivity testing using ping  
+- IP configuration analysis  
+- Command line networking tools  
+- Identifying and resolving network issues  
+
 ## Result
 Successfully identified and resolved DNS issues affecting connectivity.
