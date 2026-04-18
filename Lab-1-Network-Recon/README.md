@@ -43,3 +43,11 @@ This lab demonstrates basic network reconnaissance using Kali Linux to scan a Wi
 
 ## Conclusion
 This lab demonstrated the fundamentals of network reconnaissance using Kali Linux and Nmap in a controlled environment. I successfully identified IP addresses, verified connectivity, and scanned a target machine for open ports and services. This process helped me understand how systems communicate and how attackers gather information during the early stages of penetration testing. I also gained hands on experience using command line tools and interpreting scan results. Overall, this lab built a strong foundation for more advanced cybersecurity tasks like vulnerability scanning and exploitation.
+
+## Screenshots
+
+### Nmap Scan
+![Nmap Scan](screenshots/nmap-scan.png)
+
+### Ping Test
+![Ping Test](screenshots/ping-test.png)
