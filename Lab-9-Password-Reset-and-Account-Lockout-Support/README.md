@@ -1,4 +1,4 @@
-Lab 9 - Password Reset and Account Lockout Support
+# Lab 9 - Password Reset and Account Lockout Support
 
 Overview  
 This lab demonstrates how to perform password resets and unlock user accounts in an Active Directory environment. The goal was to simulate a real world IT support scenario where a user is unable to log in due to a forgotten password or account lockout. This lab reinforces help desk level troubleshooting skills and user account management within a domain.
