@@ -99,7 +99,7 @@ Confirmed:
 ---
 
 ## Results
-Successfully restored network connectivity by renewing DHCP configuration and identifying the correct gateway within the NAT network.
+- Successfully restored network connectivity by renewing DHCP configuration and identifying the correct gateway within the NAT network.
 
 ---
 
