@@ -66,7 +66,7 @@ This command scans for open ports and identifies running services on the target 
 
 The scan revealed multiple open ports and services, including common Windows services such as SMB and RPC.
 
-![Nmap Results](screenshots/nmap-scan.png)
+![Nmap Results](screenshots/nmap-results.png)
 
 ---
 
