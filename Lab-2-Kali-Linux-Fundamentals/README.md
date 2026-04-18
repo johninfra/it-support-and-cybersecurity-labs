@@ -54,3 +54,12 @@ This lab reinforced my understanding of Linux fundamentals and command line oper
 ### Permissions and Scripting
 ![Scripting](screenshots/kali-file-permissions-and-scripting.png)
 
+### Create Directory (mkdir)
+![mkdir](screenshots/mkdir.png)
+
+### Sudo Command (Elevated Privileges)
+![sudo](screenshots/sudo.png)
+
+### Remove Directory (rm)
+![rm](screenshots/rm.png)
+
