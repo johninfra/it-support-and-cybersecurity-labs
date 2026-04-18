@@ -21,14 +21,14 @@ This lab demonstrates fundamental Linux commands and file system navigation usin
 - Used sudo for administrative commands  
 
 ## Commands Used
-cd  
-ls  
-pwd  
-mkdir  
-rm  
-chmod  
-cat  
-sudo  
+- cd  
+- ls  
+- pwd  
+- mkdir  
+- rm  
+- chmod  
+- cat  
+- sudo  
 
 ## Results
 - Successfully navigated the Linux file system  
