@@ -132,7 +132,7 @@ This lab simulates a real world enterprise IT environment where multiple users a
 ![Group Membership](screenshots/group-membership.png)
 
 ### Shared Folder Permissions
-![Share Permissions](screenshots/shared-folder-permissions.png)
+![Share Permissions](screenshots/shared-folder.png)
 
 ### NTFS Permissions Configuration
 ![NTFS Permissions](screenshots/ntfs-permissions.png)
