@@ -28,14 +28,14 @@ This lab demonstrates how to perform password resets and unlock user accounts in
 
 ## Tasks Performed  
 
-1. Opening Active Directory Users and Computers  
+### 1. Opening Active Directory Users and Computers  
 Opened Active Directory Users and Computers on the domain controller  
 
 ![ADUC Open](screenshots/lab9-aduc-open.png)
 
 ---
 
-2. Selecting the User Account  
+### 2. Selecting the User Account  
 Navigated to corp.local Users  
 Located and selected the user account (example: jtest)  
 
@@ -43,7 +43,7 @@ Located and selected the user account (example: jtest)
 
 ---
 
-3. Resetting the Password  
+### 3. Resetting the Password  
 Right clicked the user account and selected Reset Password  
 Entered a new password and confirmed it  
 Selected the option User must change password at next logon  
@@ -53,7 +53,7 @@ Clicked OK to apply changes
 
 ---
 
-4. Unlocking the Account  
+### 4. Unlocking the Account  
 Simulated account lockout through failed login attempts  
 Returned to Active Directory Users and Computers  
 Opened user Properties  
@@ -65,7 +65,7 @@ Clicked Apply and OK
 
 ---
 
-5. Verifying Successful Login  
+### 5. Verifying Successful Login  
 Returned to Windows 11 client VM  
 Logged in using the new password  
 Confirmed successful login and access to the system  
@@ -74,7 +74,7 @@ Confirmed successful login and access to the system
 
 ---
 
-6. Verifying User Context  
+### 6. Verifying User Context  
 Opened Command Prompt on the client machine  
 Ran whoami to confirm the logged in domain user  
 
