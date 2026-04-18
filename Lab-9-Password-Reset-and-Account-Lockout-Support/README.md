@@ -28,35 +28,32 @@ Network Configuration
 
 Tasks Performed  
 
-1 Opening Active Directory Users and Computers  
+1. Opening Active Directory Users and Computers  
 Opened Active Directory Users and Computers on the domain controller  
 
-📸 Screenshot  
 ![ADUC Open](screenshots/lab9-aduc-open.png)
 
 ---
 
-2 Selecting the User Account  
+2. Selecting the User Account  
 Navigated to corp.local Users  
 Located and selected the user account (example: jtest)  
 
-📸 Screenshot  
 ![User Selected](screenshots/lab9-user-selected.png)
 
 ---
 
-3 Resetting the Password  
+3. Resetting the Password  
 Right clicked the user account and selected Reset Password  
 Entered a new password and confirmed it  
 Selected the option User must change password at next logon  
 Clicked OK to apply changes  
 
-📸 Screenshot  
 ![Password Reset](screenshots/lab9-password-reset.png)
 
 ---
 
-4 Unlocking the Account  
+4. Unlocking the Account  
 Simulated account lockout through failed login attempts  
 Returned to Active Directory Users and Computers  
 Opened user Properties  
@@ -64,26 +61,23 @@ Navigated to the Account tab
 Checked Unlock account  
 Clicked Apply and OK  
 
-📸 Screenshot  
 ![Account Unlock](screenshots/lab9-account-unlock.png)
 
 ---
 
-5 Verifying Successful Login  
+5. Verifying Successful Login  
 Returned to Windows 11 client VM  
 Logged in using the new password  
 Confirmed successful login and access to the system  
 
-📸 Screenshot  
 ![Successful Login](screenshots/lab9-successful-login.png)
 
 ---
 
-6 Verifying User Context  
+6. Verifying User Context  
 Opened Command Prompt on the client machine  
 Ran whoami to confirm the logged in domain user  
 
-📸 Screenshot  
 ![Whoami Check](screenshots/lab9-whoami-check.png)
 
 ---
