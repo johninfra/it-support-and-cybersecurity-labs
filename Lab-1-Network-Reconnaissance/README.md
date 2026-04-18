@@ -36,7 +36,7 @@ ipconfig
 
 This step ensures both machines are on the same network.
 
-![IP Configuration](screenshots/wndows-ip.png)
+![IP Configuration](screenshots/kali-ip.png)
 
 ---
 
