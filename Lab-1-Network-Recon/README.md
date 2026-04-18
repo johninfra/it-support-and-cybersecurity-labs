@@ -64,7 +64,7 @@ This command scans for open ports and identifies running services on the target 
 
 ### 4. Analyzed Scan Results
 
-The scan revealed multiple open ports and services, including common Windows services such as SMB and RPC.
+The Nmap scan shows that the target Windows machine is online and has open ports 139 (NetBIOS), 445 (SMB), and 443 (HTTPS), indicating active file sharing and network services.
 
 ![Nmap Results](screenshots/nmap-results.png)
 
