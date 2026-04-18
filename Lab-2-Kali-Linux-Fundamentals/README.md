@@ -40,6 +40,9 @@ Gained hands on experience with Linux commands
 Understood file permissions and directory structure  
 Built foundational skills for cybersecurity environments  
 
+## Conclusion
+This lab reinforced my understanding of Linux fundamentals and command line operations within a Kali Linux environment. I developed practical experience navigating the file system, managing directories and files, and modifying permissions using essential commands. These tasks improved my confidence in working within a Linux terminal, which is a critical skill for both IT support and cybersecurity roles. Additionally, I gained a clearer understanding of how permissions control access to system resources. Overall, this lab provided a strong foundation for more advanced Linux and security focused tasks.
+
 ## Screenshots
 
 ### Initial Terminal
@@ -51,5 +54,3 @@ Built foundational skills for cybersecurity environments
 ### Permissions and Scripting
 ![Scripting](screenshots/kali-file-permissions-and-scripting.png)
 
-## Conclusion
-This lab strengthened my understanding of Linux fundamentals and command line operations. I gained practical experience navigating directories, managing files, and modifying permissions. These skills are critical for both IT support and cybersecurity roles. Overall, this lab provided a solid foundation for working in Linux environments. I will continue building on these skills with more advanced labs.
