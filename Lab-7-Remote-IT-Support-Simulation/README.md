@@ -81,5 +81,12 @@ Ping test succeeded after fix.
 
 ---
 
+## Skills Demonstrated
+- Remote troubleshooting workflow  
+- Command line diagnostics  
+- System information gathering  
+- User support simulation  
+- Problem identification and resolution  
+
 ## Conclusion
 This lab demonstrated a real world IT support scenario where remote troubleshooting was used to diagnose and fix a network issue. The process reinforced critical help desk skills such as remote access, connectivity testing, and system diagnostics.
