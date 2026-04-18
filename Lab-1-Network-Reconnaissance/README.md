@@ -1,4 +1,4 @@
-# Lab 1 - Network Reconnaissance
+# Lab 1 - Network Reconnaissance and Service Enumeration with Nmap
 
 ## Overview
 This lab demonstrates basic network reconnaissance using Kali Linux to scan a Windows virtual machine. The objective was to simulate real world penetration testing techniques by identifying IP addresses, verifying connectivity, and discovering open ports and services within a controlled environment.
@@ -11,6 +11,9 @@ This lab demonstrates basic network reconnaissance using Kali Linux to scan a Wi
 - Attacker Machine: Kali Linux VM  
 - Target Machine: Windows 10 or 11 VM  
 - Network Type: NAT (same subnet)  
+
+### Virtual Machine Setup
+![VM Setup](screenshots/vm-setup.png)
 
 ---
 
@@ -36,7 +39,7 @@ ipconfig
 
 This step ensures both machines are on the same network.
 
-![IP Configuration](screenshots/kali-ip.png)
+![IP Configuration](screenshots/ip-config.png)
 
 ---
 
@@ -58,21 +61,20 @@ nmap -Pn -sV [target IP]
 
 This scan detects running services and versions on the target system.
 
-![Nmap Scan](screenshots/nmap-command.png)
+![Nmap Command](screenshots/nmap-scan.png)
 
 ---
 
 ### 4. Analyzed Scan Results
 Reviewed the scan output and identified open ports and services such as:
 
-- Port 135 (MSRPC)  
 - Port 139 (NetBIOS)  
 - Port 445 (SMB)  
-- Port 5357 (WSDAPI)  
+- Port 443 (HTTPS)  
 
 These services indicate typical Windows network functionality and potential attack surfaces.
 
-![Scan Results](screenshots/nmap-results.png)
+![Nmap Results](screenshots/nmap-results.png)
 
 ---
 
@@ -87,7 +89,7 @@ These services indicate typical Windows network functionality and potential atta
 ## Key Takeaways
 - Network reconnaissance is the first step in penetration testing  
 - Ping verifies connectivity between systems  
-- Nmap is a powerful tool for discovering open ports and services  
+- Nmap is used for port scanning and service enumeration  
 - Open ports can indicate potential vulnerabilities  
 - Understanding network structure is critical for cybersecurity  
 
