@@ -122,3 +122,26 @@ This lab demonstrates how to configure Active Directory users, security groups, 
 
 ## Conclusion
 This lab simulates a real world enterprise IT environment where multiple users and departments require controlled access to shared resources. By using security groups instead of assigning permissions directly to users, access control becomes scalable, secure, and easier to manage. The lab also demonstrates how to troubleshoot and validate permissions which is a critical skill in IT support and system administration roles.
+
+## Screenshots
+
+### Active Directory User Creation
+![User Creation](screenshots/user-creation.png)
+
+### Group Membership Configuration
+![Group Membership](screenshots/group-membership.png)
+
+### Shared Folder Permissions
+![Share Permissions](screenshots/shared-folder-permissions.png)
+
+### NTFS Permissions Configuration
+![NTFS Permissions](screenshots/ntfs-permissions.png)
+
+### Access Denied Test
+![Access Denied](screenshots/access-denied.png)
+
+### Successful Access Test
+![Access Success](screenshots/access-success.png)
+
+### Group Verification Command
+![Whoami Groups](screenshots/whoami-groups.png)
