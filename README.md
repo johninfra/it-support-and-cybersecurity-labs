@@ -2,44 +2,58 @@
 
 This repository documents hands-on IT support and cybersecurity labs designed to simulate real-world help desk and system administration tasks. Each lab reflects practical experience in troubleshooting, user account management, and network diagnostics.
 
-## Key Skills and Experience
-
-- Active Directory user support including password resets, account unlocks, and permission management  
-- Network troubleshooting using ping, ipconfig, DNS diagnostics, and connectivity testing  
-- Virtual machine setup and management using VMware Workstation  
-- Windows and Linux system administration in lab environments  
-- Command line usage across Windows (CMD, PowerShell) and Linux (Kali)  
-- File system permissions and access control (NTFS and Linux chmod)  
-- Network scanning and reconnaissance using Nmap  
-- Real world help desk scenarios including login issues, account lockouts, and shared drive access  
-
----
-
-## Lab Experience Highlights
-
-- Resolved user login issues by resetting passwords and unlocking accounts in Active Directory  
-- Diagnosed network connectivity failures and restored communication between systems  
-- Configured shared folders and mapped network drives across domain environments  
-- Built and managed multiple virtual machines simulating enterprise IT infrastructure  
-- Performed network reconnaissance to identify open ports and services  
-- Practiced troubleshooting workflows similar to real IT support tickets  
-
----
-
 ## Labs Included
 
-- Network Reconnaissance using Kali Linux and Nmap  
-- Linux System Operations and File Permissions  
-- Network Troubleshooting and Connectivity Repair  
-- Active Directory User and Access Management  
-- Network Drive Mapping and File Sharing  
-- Active Directory User and Group Management  
-- Remote IT Support Ticket Simulation  
-- DNS and Network Connectivity Troubleshooting  
-- Active Directory Password Reset and Account Recovery  
+### Lab 01 - Network Reconnaissance and Service Enumeration
+Used Kali Linux and Nmap to identify hosts, test connectivity, and enumerate open ports and services on a Windows target machine.
 
----
+### Lab 02 - Linux System Operations and File Permission Management
+Practiced Linux command line operations, directory creation and removal, sudo privileges, and chmod based permission management in Kali Linux.
+
+### Lab 03 - Network Troubleshooting and Connectivity Restoration
+Diagnosed and resolved a network connectivity issue in a VMware NAT environment after releasing IP configuration and restoring proper DHCP behavior.
+
+### Lab 04 - Active Directory User and Access Management
+Created and managed domain users, groups, shared folders, and access controls in a Windows Server Active Directory environment.
+
+### Lab 05 - Network Drive Mapping and File Sharing
+Configured a shared folder, assigned permissions, and mapped a network drive between systems in the same virtual network.
+
+### Lab 06
+Add your lab 6 summary here.
+
+### Lab 07
+Add your lab 7 summary here.
+
+### Lab 08
+Add your lab 8 summary here.
+
+### Lab 09 - Password Reset and Account Lockout Support
+Simulated a common help desk workflow by resetting a domain user password, unlocking a locked account, and verifying successful login and user context.
+
+### Lab 10 - Software Installation and Printer Troubleshooting
+Simulated desktop support tasks by installing software, verifying application functionality, and troubleshooting printer setup and test output.
+
+## Skills Demonstrated
+- Network troubleshooting and diagnostics
+- Linux and Windows command line operations
+- VMware virtual machine configuration
+- Nmap scanning and service enumeration
+- Active Directory user and access management
+- Password reset and account lockout support
+- Network drive mapping and file sharing
+- File permission management in Linux
+- Real world help desk troubleshooting workflows
+
+## Tools Used
+- VMware Workstation
+- Windows 10 and Windows 11
+- Windows Server 2022
+- Kali Linux
+- Active Directory Users and Computers
+- Command Prompt
+- PowerShell
+- Nmap
 
 ## Career Objective
-
-Seeking an entry level IT support or help desk role where I can apply hands on troubleshooting skills, support users in real world environments, and continue building toward a cybersecurity career.
+Seeking an entry level IT support, help desk, or junior cybersecurity role where I can apply hands on troubleshooting skills and continue building practical experience.
