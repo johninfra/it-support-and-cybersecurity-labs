@@ -1,9 +1,9 @@
 # Lab 3 - Network Troubleshooting
 
 ## Overview
-This lab demonstrates real world network troubleshooting in a VMware virtual environment. The objective was to diagnose and resolve a loss of network connectivity after manually releasing the IP configuration on a Windows virtual machine.
+This lab demonstrates troubleshooting network connectivity issues in a VMware virtual environment. The issue occurred after manually releasing the IP configuration, which caused the system to lose network access.
 
-This simulates a common IT support scenario where a system loses connectivity due to DHCP or network misconfiguration.
+The objective was to restore connectivity using standard IT troubleshooting techniques.
 
 ---
 
@@ -19,7 +19,7 @@ This simulates a common IT support scenario where a system loses connectivity du
 - Command Prompt  
 - ipconfig  
 - ping  
-- VMware Network Settings  
+- netsh  
 
 ---
 
@@ -28,51 +28,42 @@ After running:
 
 ipconfig /release
 
-The system lost network connectivity and produced errors preventing IP renewal. The machine was unable to access the network or internet.
+The system lost network connectivity and was unable to reach the gateway or internet. The machine could not renew its IP configuration properly.
 
 ---
 
-## Tasks Performed
+## Troubleshooting Steps
 
-### 1. Checked IP Configuration
-Ran:
-
-ipconfig /all
-
-Observed incorrect or missing configuration.
-
-
----
-
-### 2. Attempted IP Renewal
+### 1. Attempted to Renew IP Configuration
 Ran:
 
 ipconfig /renew
 
-Received adapter state error.
+The system initially failed to restore proper network connectivity.
+
+---
+
+### 2. Reset Network Stack
+Ran:
+
+netsh winsock reset  
+netsh int ip reset  
+
+This reset the Windows network stack and cleared any corrupted settings.
 
 
 ---
 
-### 3. Tested Connectivity
-Ping test to expected gateway failed:
-
-ping 192.168.110.1
-
-Result:
-- 100 percent packet loss
-
-
----
-
-### 4. Identified Correct Gateway
-Discovered VMware NAT gateway was:
+### 3. Identified Correct Gateway
+Discovered that the VMware NAT gateway was:
 
 192.168.110.2
 
+instead of the commonly expected .1
+
 ---
 
-### 5. Retested Network Connectivity
+### 4. Tested Connectivity
 Ran:
 
 ping 192.168.110.2  
@@ -81,11 +72,12 @@ ping 8.8.8.8
 Results:
 - Successful replies
 - 0 percent packet loss
+- Internet connectivity restored
 
 
 ---
 
-### 6. Verified Final Configuration
+### 5. Verified Final Configuration
 Ran:
 
 ipconfig /all
@@ -99,17 +91,17 @@ Confirmed:
 ---
 
 ## Results
-- Successfully restored network connectivity by renewing DHCP configuration and identifying the correct gateway within the NAT network.
+Successfully restored network connectivity by resetting the network stack, renewing DHCP configuration, and identifying the correct gateway within the NAT network.
 
 ---
 
 ## Key Takeaways
 - Releasing IP configuration can temporarily break connectivity
-- DHCP must successfully renew for network access to return
-- VMware NAT networks may use .2 as the gateway instead of .1
-- Systematic troubleshooting is essential in IT environments
+- DHCP renewal may fail if network configuration is unstable
+- VMware NAT environments may use .2 as the gateway
+- Network stack resets can resolve deeper connectivity issues
 
 ---
 
 ## Conclusion
-This lab provided hands on experience troubleshooting a real network failure scenario. After releasing the IP configuration, the system lost connectivity due to a temporary DHCP issue. By diagnosing the problem, identifying the correct gateway, and verifying network settings, full connectivity was restored. This reinforced practical troubleshooting skills used in real IT support roles.
+This lab demonstrated a real world network troubleshooting scenario where connectivity was lost after releasing the IP configuration. By resetting the network stack, identifying the correct gateway, and verifying network settings, full connectivity was restored. This exercise reinforced practical troubleshooting skills used in IT support roles.
