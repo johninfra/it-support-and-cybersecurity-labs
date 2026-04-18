@@ -19,13 +19,13 @@ Created and managed domain users, groups, shared folders, and access controls in
 ### Lab 05 - Network Drive Mapping and File Sharing
 Configured a shared folder, assigned permissions, and mapped a network drive between systems in the same virtual network.
 
-### Lab 06
+### Lab 06 - Active Directory User and Group Management
 Created and managed domain users and security groups, assigned group based permissions, and verified access control within an Active Directory environment.
 
-### Lab 07
+### Lab 07 - Remote IT Support Simulation
 Simulated a real help desk scenario by diagnosing and resolving user issues remotely using system tools, command line, and structured troubleshooting steps.
 
-### Lab 08
+### Lab 08 - DNS and Network Connectivity Troubleshooting
 Diagnosed and resolved network connectivity issues by analyzing DNS settings, verifying IP configuration, and restoring proper communication between systems.
 
 ### Lab 09 - Password Reset and Account Lockout Support
