@@ -4,21 +4,21 @@
 This lab demonstrates fundamental Linux commands and file system navigation using Kali Linux. The objective was to build a strong foundation in Linux usage, which is essential for IT support and cybersecurity roles.
 
 ## Lab Setup
-Host Machine: Windows Laptop  
-Virtualization: VMware Workstation Player  
-Virtual Machine: Kali Linux  
-Network Type: NAT  
+- Host Machine: Windows Laptop  
+- Virtualization: VMware Workstation Player  
+- Virtual Machine: Kali Linux  
+- Network Type: NAT  
 
 ## Tools Used
-Kali Linux Terminal  
-Linux Command Line  
+- Kali Linux Terminal  
+- Linux Command Line  
 
 ## Tasks Performed
-Navigated directories using cd and ls  
-Created and removed files and folders  
-Modified file permissions using chmod  
-Viewed file contents using cat  
-Used sudo for administrative commands  
+- Navigated directories using cd and ls  
+- Created and removed files and folders  
+- Modified file permissions using chmod  
+- Viewed file contents using cat  
+- Used sudo for administrative commands  
 
 ## Commands Used
 cd  
