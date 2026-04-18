@@ -51,6 +51,7 @@ netsh int ip reset
 
 This reset the Windows network stack and cleared any corrupted settings.
 
+![Network Reset](screenshots/network-reset.png)
 
 ---
 
@@ -64,16 +65,31 @@ instead of the commonly expected .1
 ---
 
 ### 4. Tested Connectivity
+
+#### Failed Attempt
+Ran:
+
+ping 192.168.110.1  
+
+Result:
+- 100 percent packet loss  
+
+![Ping Failure](screenshots/ping-failure.png)
+
+---
+
+#### Successful Test
 Ran:
 
 ping 192.168.110.2  
 ping 8.8.8.8  
 
 Results:
-- Successful replies
-- 0 percent packet loss
-- Internet connectivity restored
+- Successful replies  
+- 0 percent packet loss  
+- Internet connectivity restored  
 
+![Ping Success](screenshots/ping-success.png)
 
 ---
 
@@ -83,10 +99,11 @@ Ran:
 ipconfig /all
 
 Confirmed:
-- Valid IP address
-- DHCP enabled
-- Correct gateway
+- Valid IP address  
+- DHCP enabled  
+- Correct gateway  
 
+![Final Configuration](screenshots/ipconfig-final.png)
 
 ---
 
@@ -96,28 +113,12 @@ Confirmed:
 ---
 
 ## Key Takeaways
-- Releasing IP configuration can temporarily break connectivity
-- DHCP renewal may fail if network configuration is unstable
-- VMware NAT environments may use .2 as the gateway
-- Network stack resets can resolve deeper connectivity issues
+- Releasing IP configuration can temporarily break connectivity  
+- DHCP renewal may fail if network configuration is unstable  
+- VMware NAT environments may use .2 as the gateway  
+- Network stack resets can resolve deeper connectivity issues  
 
 ---
 
 ## Conclusion
 This lab demonstrated a real world network troubleshooting scenario where connectivity was lost after releasing the IP configuration. By resetting the network stack, identifying the correct gateway, and verifying network settings, full connectivity was restored. This exercise reinforced practical troubleshooting skills used in IT support roles.
-
-
-## Screenshots
-
-
-### Ping Failure
-![Ping Failure](ping-failure.png)
-
-### Network Reset
-![Network Reset](network-reset.png)
-
-### Ping Success
-![Ping Success](ping-success.png)
-
-### Final Configuration
-![Final Config](ipconfig-final.png)
