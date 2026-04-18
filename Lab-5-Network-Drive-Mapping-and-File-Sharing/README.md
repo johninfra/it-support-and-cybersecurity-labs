@@ -27,7 +27,7 @@ This lab demonstrates how to configure network file sharing and map a network dr
 ### 1. Created Shared Folder
 Created a folder on the server machine to be shared across the network:
 
-C:\SharedFolder
+C:\SharedFolder2
 
 Configured the folder for sharing using Advanced Sharing settings.
 
