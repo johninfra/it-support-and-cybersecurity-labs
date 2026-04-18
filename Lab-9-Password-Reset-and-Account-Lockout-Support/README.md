@@ -1,9 +1,9 @@
 # Lab 9 - Password Reset and Account Lockout Support
 
-Overview  
+## Overview  
 This lab demonstrates how to perform password resets and unlock user accounts in an Active Directory environment. The goal was to simulate a real world IT support scenario where a user is unable to log in due to a forgotten password or account lockout. This lab reinforces help desk level troubleshooting skills and user account management within a domain.
 
-Lab Setup  
+## Lab Setup  
 - Host Machine: Windows Laptop  
 - Virtualization: VMware Workstation  
 - Domain Controller: Windows Server 2022  
@@ -11,14 +11,14 @@ Lab Setup
 - Domain: corp.local  
 - Network Type: NAT (same subnet)
 
-Tools Used  
+## Tools Used  
 - Active Directory Users and Computers  
 - Server Manager  
 - Windows Security (Ctrl + Alt + Delete)  
 - Command Prompt  
 - Group Policy
 
-Network Configuration  
+## Network Configuration  
 - Domain Controller assigned private IP address  
 - Client VM assigned private IP address on same subnet  
 - Verified connectivity using ping between machines  
@@ -26,7 +26,7 @@ Network Configuration
 
 ---
 
-Tasks Performed  
+## Tasks Performed  
 
 1. Opening Active Directory Users and Computers  
 Opened Active Directory Users and Computers on the domain controller  
@@ -82,14 +82,14 @@ Ran whoami to confirm the logged in domain user
 
 ---
 
-Commands Used  
+## Commands Used  
 - gpupdate /force  
 - whoami  
 - ping [domain controller IP]
 
 ---
 
-Results  
+## Results  
 - Successfully reset user password in Active Directory  
 - Simulated account lockout and resolved it  
 - Unlocked user account using administrative tools  
@@ -98,7 +98,7 @@ Results
 
 ---
 
-Key Takeaways  
+## Key Takeaways  
 - Learned how to reset passwords in a domain environment  
 - Understood how account lockouts occur and how to resolve them  
 - Gained hands on experience with Active Directory user management  
@@ -106,5 +106,5 @@ Key Takeaways
 
 ---
 
-Conclusion  
+## Conclusion  
 This lab provided practical experience with password reset and account lockout scenarios in a domain environment. It demonstrated how IT support professionals assist users who are unable to access their accounts. By completing this lab, I strengthened my understanding of Active Directory account management and improved my ability to troubleshoot common login issues. These skills are essential for entry level IT support and help desk roles.
