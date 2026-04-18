@@ -41,7 +41,6 @@ ipconfig /all
 
 Observed incorrect or missing configuration.
 
-![IP Config Before](screenshots/ipconfig-before.png)
 
 ---
 
@@ -52,7 +51,6 @@ ipconfig /renew
 
 Received adapter state error.
 
-![Renew Error](screenshots/no-adapter-error.png)
 
 ---
 
@@ -64,7 +62,6 @@ ping 192.168.110.1
 Result:
 - 100 percent packet loss
 
-![Ping Failure](screenshots/ping-failure.png)
 
 ---
 
@@ -85,7 +82,6 @@ Results:
 - Successful replies
 - 0 percent packet loss
 
-![Ping Success](screenshots/ping-success.png)
 
 ---
 
