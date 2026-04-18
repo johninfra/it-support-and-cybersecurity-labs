@@ -61,7 +61,7 @@ nmap -Pn -sV [target IP]
 
 This scan detects running services and versions on the target system.
 
-![Nmap Command](screenshots/nmap-scan.png)
+![Nmap Command](screenshots/nmap-results.png)
 
 ---
 
