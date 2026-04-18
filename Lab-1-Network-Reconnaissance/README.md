@@ -39,7 +39,7 @@ ipconfig
 
 This step ensures both machines are on the same network.
 
-![IP Configuration](screenshots/ip-config.png)
+![IP Configuration](screenshots/kali-ip.png)
 
 ---
 
