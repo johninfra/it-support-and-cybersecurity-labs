@@ -35,7 +35,7 @@ The system lost network connectivity and produced errors preventing IP renewal. 
 ## Tasks Performed
 
 ### 1. Checked IP Configuration
-- Ran:
+Ran:
 
 ipconfig /all
 
@@ -45,7 +45,7 @@ Observed incorrect or missing configuration.
 ---
 
 ### 2. Attempted IP Renewal
-- Ran:
+Ran:
 
 ipconfig /renew
 
@@ -55,7 +55,7 @@ Received adapter state error.
 ---
 
 ### 3. Tested Connectivity
-- Ping test to expected gateway failed:
+Ping test to expected gateway failed:
 
 ping 192.168.110.1
 
@@ -66,14 +66,14 @@ Result:
 ---
 
 ### 4. Identified Correct Gateway
-- Discovered VMware NAT gateway was:
+Discovered VMware NAT gateway was:
 
 192.168.110.2
 
 ---
 
 ### 5. Retested Network Connectivity
-- Ran:
+Ran:
 
 ping 192.168.110.2  
 ping 8.8.8.8  
@@ -86,7 +86,7 @@ Results:
 ---
 
 ### 6. Verified Final Configuration
-- Ran:
+Ran:
 
 ipconfig /all
 
