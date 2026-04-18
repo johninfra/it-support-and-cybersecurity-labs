@@ -111,13 +111,13 @@ This lab demonstrated a real world network troubleshooting scenario where connec
 
 
 ### Ping Failure
-![Ping Failure](screenshots/ping-failure.png)
+![Ping Failure](ping-failure.png)
 
 ### Network Reset
-![Network Reset](screenshots/network-reset.png)
+![Network Reset](network-reset.png)
 
 ### Ping Success
-![Ping Success](screenshots/ping-success.png)
+![Ping Success](ping-success.png)
 
 ### Final Configuration
-![Final Config](screenshots/ipconfig-final.png)
+![Final Config](ipconfig-final.png)
