@@ -15,7 +15,7 @@ This lab demonstrates how to diagnose and resolve DNS related network issues.
 ## Process
 
 ### DNS Failure
-![DNS Failure](screenshots/dns-failure.png)
+![DNS Failure](screenshots/dns-failure2.png)
 
 ### IP Connectivity Works
 ![IP Success](screenshots/ip-success.png)
