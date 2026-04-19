@@ -34,6 +34,9 @@ Simulated a common help desk workflow by resetting a domain user password, unloc
 ### Lab 10 - Software Installation and Printer Troubleshooting
 Simulated desktop support tasks by installing software, verifying application functionality, and troubleshooting printer setup and test output.
 
+### Lab 11 - Enterprise Windows Troubleshooting Ticket  
+Simulated a real world help desk ticket involving a Windows printer failure. Diagnosed the issue using system tools, resolved it by restarting the Print Spooler service, and verified functionality through a successful test print, following a structured troubleshooting workflow.
+
 ## Skills Demonstrated
 - Network troubleshooting and diagnostics
 - Linux and Windows command line operations
