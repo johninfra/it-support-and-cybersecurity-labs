@@ -92,6 +92,18 @@ This lab demonstrates a basic cybersecurity home lab where network reconnaissanc
 
 ---
 
+## Skills Demonstrated  
+
+- Network reconnaissance and enumeration techniques  
+- Use of Nmap for port scanning and service detection  
+- Basic TCP/IP networking concepts and subnet verification  
+- Command line proficiency in both Linux and Windows environments  
+- Connectivity troubleshooting using ping and IP configuration tools  
+- Identification of common Windows network services and ports  
+- Analysis of scan results to assess potential security exposure  
+- Documentation of technical findings using structured README format  
+
+
 ## Conclusion  
 
 This lab demonstrated how basic network reconnaissance can be performed using Kali Linux against a Windows system. Connectivity was verified before executing a service scan to identify open ports and running services. The results showed several common Windows services that could be further analyzed for vulnerabilities. This exercise reinforced the importance of reconnaissance as the first step in penetration testing. Overall, the lab provided practical experience in identifying and analyzing network exposure.
