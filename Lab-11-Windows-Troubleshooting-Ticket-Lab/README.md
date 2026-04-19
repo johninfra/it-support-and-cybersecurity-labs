@@ -78,6 +78,23 @@ This lab simulates a real world IT support scenario involving software installat
 
 ---
 
+## Skills Demonstrated  
+
+- Windows troubleshooting and system diagnostics  
+- Software installation and validation  
+- Printer troubleshooting and configuration  
+- Service management using Windows tools  
+- Problem solving using structured IT support workflows
+
+- ---
+
+## Conclusion  
+
+This lab demonstrated how to troubleshoot common Windows issues related to software installation and printer functionality. The process involved identifying the problem, using system tools to diagnose the issue, and applying a targeted fix by restarting the Print Spooler service. After resolving the issue, functionality was verified through a successful test print. This exercise reinforced the importance of structured troubleshooting in IT support environments. Overall, the lab provided practical experience handling real world help desk scenarios.
+
+
+- ---
+
 ## Ticket Scenario  
 
 **Scenario:**  
@@ -94,19 +111,3 @@ Restarted the Print Spooler service and reinitialized the printer connection.
 
 **Verification:**  
 Printed a successful test page and confirmed the user could resume normal printing operations.
-
----
-
-## Skills Demonstrated  
-
-- Windows troubleshooting and system diagnostics  
-- Software installation and validation  
-- Printer troubleshooting and configuration  
-- Service management using Windows tools  
-- Problem solving using structured IT support workflows
-
-- ---
-
-## Conclusion  
-
-This lab demonstrated how to troubleshoot common Windows issues related to software installation and printer functionality. The process involved identifying the problem, using system tools to diagnose the issue, and applying a targeted fix by restarting the Print Spooler service. After resolving the issue, functionality was verified through a successful test print. This exercise reinforced the importance of structured troubleshooting in IT support environments. Overall, the lab provided practical experience handling real world help desk scenarios.
