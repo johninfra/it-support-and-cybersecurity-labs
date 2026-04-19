@@ -130,3 +130,23 @@ Confirmed:
 
 ## Conclusion
 This lab demonstrated a real world network troubleshooting scenario where connectivity was lost after releasing the IP configuration. By systematically diagnosing the issue, resetting the network stack, identifying the correct gateway, and verifying network settings, full connectivity was restored. This exercise reinforced practical troubleshooting skills used in IT support roles.
+
+---
+
+## Ticket Scenario  
+
+**Scenario:**  
+A user reports that their computer is unable to access the network or reach internal resources after a recent system restart.
+
+**Issue:**  
+The system is not receiving a valid IP address and cannot communicate with other devices on the network.
+
+**Diagnosis:**  
+Checked IP configuration using `ipconfig` and identified an incorrect or missing DHCP assignment. Verified network adapter settings and connectivity within the virtual environment.
+
+**Resolution:**  
+Released and renewed the IP address using `ipconfig /release` and `ipconfig /renew`, restoring proper DHCP configuration and network connectivity.
+
+**Verification:**  
+Successfully pinged other devices on the network and confirmed restored internet and internal network access.
+
