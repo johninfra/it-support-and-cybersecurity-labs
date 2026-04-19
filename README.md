@@ -1,6 +1,8 @@
 ## About This Repository
 
-This repository simulates real-world IT support tickets and enterprise environments designed to simulate real-world help desk and system administration tasks. Each lab reflects practical experience in troubleshooting, user account management, and network diagnostics.
+This repository showcases hands-on IT support and cybersecurity labs designed to replicate real enterprise troubleshooting scenarios. 
+
+Each lab demonstrates practical experience with Active Directory, networking, DNS, system administration, and help desk workflows including issue diagnosis, resolution, and verification.
 
 ## Labs Included
 
