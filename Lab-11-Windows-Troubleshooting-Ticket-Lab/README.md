@@ -35,55 +35,9 @@ This lab simulates a real world IT support scenario involving software installat
 
 ---
 
-## Step by Step Instructions  
-
-### Step 1 - Install Software  
-- Download and install a simple application (example: Google Chrome or Notepad++)  
-- Verify the application launches successfully  
-
-📸 Screenshot: software-installed.png  
-
----
-
-### Step 2 - Verify Application Functionality  
-- Open the installed application  
-- Confirm it runs without errors  
-
-📸 Screenshot: app-open.png  
-
----
-
-### Step 3 - Simulate Printer Issue  
-- Go to **Devices and Printers**  
-- Set printer to offline or observe failed print job  
-
-📸 Screenshot: printer-issue.png  
-
----
-
-### Step 4 - Restart Print Spooler Service  
-- Open Run → type `services.msc`  
-- Locate **Print Spooler**  
-- Restart the service  
-
-📸 Screenshot: spooler-restart.png  
-
----
-
-### Step 5 - Print Test Page  
-- Right click printer → Printer Properties  
-- Click **Print Test Page**  
-- Confirm successful print  
-
-📸 Screenshot: test-print.png  
-
----
-
 ## Commands Used  
 
-```bash
-services.msc
-```
+- services.msc
 
 ---
 
