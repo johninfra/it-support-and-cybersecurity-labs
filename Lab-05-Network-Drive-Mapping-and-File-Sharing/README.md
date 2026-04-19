@@ -105,3 +105,23 @@ Confirmed that the mapped drive appeared under "This PC" and allowed access to f
 
 ## Conclusion
 This lab demonstrated how to create and manage shared network resources in a Windows environment. By configuring folder sharing, assigning permissions, and mapping a network drive, full access between systems was successfully established. This exercise reflects common real world IT support tasks involving file servers and user access management.
+
+---
+
+## Ticket Scenario  
+
+**Scenario:**  
+A user is unable to access a shared network drive that other team members can access without issues.
+
+**Issue:**  
+The user receives an “Access Denied” error when attempting to open the shared folder.
+
+**Diagnosis:**  
+Verified network connectivity and confirmed the shared drive was reachable. Checked user group membership and reviewed NTFS and share permissions on the folder.
+
+**Resolution:**  
+Added the user to the appropriate security group and updated folder permissions to grant the required access level.
+
+**Verification:**  
+User successfully accessed the shared drive and was able to open, create, and modify files as expected.
+
