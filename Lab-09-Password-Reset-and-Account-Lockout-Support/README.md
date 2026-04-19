@@ -115,3 +115,23 @@ Ran whoami to confirm the logged in domain user
 
 ## Conclusion  
 This lab provided practical experience with password reset and account lockout scenarios in a domain environment. It demonstrated how IT support professionals assist users who are unable to access their accounts. By completing this lab, I strengthened my understanding of Active Directory account management and improved my ability to troubleshoot common login issues. These skills are essential for entry level IT support and help desk roles.
+
+---
+
+## Ticket Scenario  
+
+**Scenario:**  
+A user is locked out of their account after multiple failed login attempts and cannot access their workstation.
+
+**Issue:**  
+The account is locked and the user is unable to authenticate within the domain environment.
+
+**Diagnosis:**  
+Checked Active Directory Users and Computers and confirmed the account was locked. Verified user identity and reviewed account status.
+
+**Resolution:**  
+Reset the user’s password and unlocked the account using Active Directory administrative tools.
+
+**Verification:**  
+User successfully logged into their system and confirmed access to required resources. Verified identity using `whoami` command.
+
