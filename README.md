@@ -17,7 +17,7 @@ Diagnosed and resolved a network connectivity issue in a VMware NAT environment 
 Created and managed domain users, groups, shared folders, and access controls in a Windows Server Active Directory environment.
 
 ### Lab 05 - Network Drive Mapping and File Sharing
-Configured a shared folder, assigned permissions, and mapped a network drive between systems in the same virtual network.
+Resolved access issue by configuring NTFS and share permissions, assigned permissions, and mapped a network drive between systems in the same virtual network.
 
 ### Lab 06 - Active Directory User and Group Management
 Created and managed domain users and security groups, assigned group based permissions, and verified access control within an Active Directory environment.
