@@ -1,4 +1,4 @@
-# Lab 10 - Windows Troubleshooting and Printer Support
+# Lab 11 - Windows Troubleshooting and Printer Support
 
 ## Overview  
 This lab simulates a real world IT support scenario involving software installation and printer troubleshooting on a Windows system. The objective was to diagnose common user issues, restore functionality, and verify successful operation using standard help desk procedures.
