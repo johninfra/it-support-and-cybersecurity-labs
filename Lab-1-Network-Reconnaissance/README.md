@@ -42,3 +42,60 @@ This lab demonstrates a basic cybersecurity home lab where network reconnaissanc
 
 ## Commands Used  
 
+```bash
+ip a
+ipconfig
+ping 192.168.110.131
+nmap -Pn -sV 192.168.110.131
+```
+
+---
+
+## Screenshots  
+
+### VM Network Setup  
+![VM Setup](screenshots/vm-setup.png)
+
+### Kali Linux IP Address  
+![Kali IP](screenshots/kali-ip.png)
+
+### Windows IP Address  
+![Windows IP](screenshots/windows-ip.png)
+
+### Ping Connectivity Test  
+![Ping Test](screenshots/ping-test.png)
+
+### Nmap Command Execution  
+![Nmap Command](screenshots/nmap-command.png)
+
+### Nmap Scan Results  
+![Nmap Results](screenshots/nmap-results.png)
+
+---
+
+## Results  
+
+- Successfully established network connectivity between Kali Linux and the Windows VM  
+- Identified active host on the network using ICMP ping  
+- Discovered open ports and associated services on the target machine  
+- Detected common Windows services including:  
+  - 135/tcp (MSRPC)  
+  - 139/tcp (NetBIOS)  
+  - 445/tcp (SMB)  
+  - 5357/tcp (WSDAPI)  
+
+---
+
+## Key Takeaways  
+
+- Learned how to enumerate a target system using Nmap  
+- Understood how network services expose potential attack surfaces  
+- Gained hands-on experience validating connectivity and scanning hosts  
+- Built a foundational workflow for reconnaissance in a controlled lab environment  
+
+---
+
+## Conclusion  
+
+This lab demonstrated how basic network reconnaissance can be performed using Kali Linux against a Windows system. Connectivity was verified before executing a service scan to identify open ports and running services. The results showed several common Windows services that could be further analyzed for vulnerabilities. This exercise reinforced the importance of reconnaissance as the first step in penetration testing. Overall, the lab provided practical experience in identifying and analyzing network exposure.
+
