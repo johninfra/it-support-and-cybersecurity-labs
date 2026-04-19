@@ -52,7 +52,7 @@ This lab demonstrates a basic cybersecurity home lab where network reconnaissanc
 ## Screenshots  
 
 ### VM Network Setup  
-![VM Setup](screenshots/vm-setup.png)
+![VM Setup](screenshots/vm-setup1.png)
 
 ### Kali Linux IP Address  
 ![Kali IP](screenshots/kali-ip.png)
