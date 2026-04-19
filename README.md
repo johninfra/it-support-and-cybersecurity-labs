@@ -39,16 +39,13 @@ Simulated desktop support tasks by installing software, verifying application fu
 ### Lab 11 - Enterprise Windows Troubleshooting Ticket  
 Simulated a real world help desk ticket involving a Windows printer failure. Diagnosed the issue using system tools, resolved it by restarting the Print Spooler service, and verified functionality through a successful test print, following a structured troubleshooting workflow.
 
-## Skills Demonstrated
-- Network troubleshooting and diagnostics
-- Linux and Windows command line operations
-- VMware virtual machine configuration
-- Nmap scanning and service enumeration
+## Key Skills Demonstrated
 - Active Directory user and access management
-- Password reset and account lockout support
-- Network drive mapping and file sharing
-- File permission management in Linux
-- Real world help desk troubleshooting workflows
+- Network troubleshooting and DNS diagnostics
+- Windows system administration and service management
+- Help desk ticket resolution workflow
+- Remote support and user issue remediation
+- Virtual machine configuration and lab environments
 
 ## Tools Used
 - VMware Workstation
