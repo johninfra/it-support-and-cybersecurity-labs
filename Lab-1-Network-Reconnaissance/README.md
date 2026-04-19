@@ -77,10 +77,9 @@ This lab demonstrates a basic cybersecurity home lab where network reconnaissanc
 - Identified active host on the network using ICMP ping  
 - Discovered open ports and associated services on the target machine  
 - Detected common Windows services including:  
-  - 135/tcp (MSRPC)  
   - 139/tcp (NetBIOS)  
   - 445/tcp (SMB)  
-  - 5357/tcp (WSDAPI)  
+  
 
 ---
 
