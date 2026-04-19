@@ -33,10 +33,10 @@ This lab demonstrates a basic cybersecurity home lab where network reconnaissanc
 
 ## Tasks Performed  
 
-1. Identified IP addresses on both machines  
-2. Verified connectivity using ping  
-3. Performed a service and port scan using Nmap  
-4. Analyzed open ports and detected services  
+- Identified IP addresses on both machines  
+- Verified connectivity using ping  
+- Performed a service and port scan using Nmap  
+- Analyzed open ports and detected services  
 
 ---
 
