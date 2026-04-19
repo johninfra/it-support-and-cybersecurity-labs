@@ -42,12 +42,10 @@ This lab demonstrates a basic cybersecurity home lab where network reconnaissanc
 
 ## Commands Used  
 
-```bash
 - ip a
 - ipconfig
 - ping 192.168.110.131
 - nmap -Pn -sV 192.168.110.131
-```
 
 ---
 
