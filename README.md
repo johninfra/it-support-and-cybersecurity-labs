@@ -61,4 +61,7 @@ Performed network reconnaissance using Nmap, verified connectivity, captured and
 - Nmap
 
 ## Career Objective
-Seeking an entry level IT support, help desk, or junior cybersecurity role where I can apply hands on troubleshooting skills and continue building practical experience.
+
+Hands on IT support and cybersecurity candidate with proven experience diagnosing and resolving real world technical issues across Windows systems, Active Directory, networking, and virtual environments.
+
+Seeking an entry level help desk or IT support role where I can immediately contribute through structured troubleshooting, ticket resolution, and system administration while progressing toward a cybersecurity career.
