@@ -62,7 +62,7 @@ Opened the Kali Linux terminal and used ip a to determine the IP address of the 
 
 Performed a ping scan across the subnet to identify active systems on the network.
 
-- nmap -sn 192.168.110.0/24
+- nmap -sn 192.168.110.133/24
 
 ![Nmap Host Discovery](screenshots/lab12-nmap-host-discovery.png)
 
