@@ -175,7 +175,6 @@ host=*
 - tcp
 - index=main
 - index=main sourcetype=WinEventLog:Security
-```
 
 ---
 
