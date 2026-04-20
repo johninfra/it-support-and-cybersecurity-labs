@@ -154,7 +154,6 @@ Executed search queries in Splunk to view available system logs.
 - icmp
 - tcp
 - index=main
-- index=main sourcetype=WinEventLog:Security
 
 ---
 
