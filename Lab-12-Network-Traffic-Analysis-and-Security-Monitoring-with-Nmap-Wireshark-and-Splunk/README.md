@@ -42,7 +42,7 @@ Both virtual machines were connected to the same subnet to allow communication a
 
 Opened Command Prompt on the Windows virtual machine and used ipconfig to identify the system IP address.
 
-```cmd
+```bash
 ipconfig
 ```
 
