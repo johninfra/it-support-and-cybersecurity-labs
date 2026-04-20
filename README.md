@@ -11,7 +11,7 @@ IT Support and Help Desk professional with hands-on experience supporting users,
 
 Experienced in resolving technical issues independently, documenting solutions, and maintaining efficient remote support workflows.
 
-Seeking a remote IT support or help desk role where I can provide reliable technical assistance, support distributed teams, and grow into a cybersecurity-focused position.
+Seeking an IT support or help desk role where I can provide reliable technical assistance, support distributed teams, and grow into a cybersecurity-focused position.
 
 ---
 
