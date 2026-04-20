@@ -72,7 +72,7 @@ Performed a ping scan across the subnet to identify active systems on the networ
 
 Executed a targeted Nmap scan against the Windows VM to identify open ports and running services.
 
-- nmap -Pn -sV [windows-ip]
+- nmap -Pn -sV 192.168.110.128
 
 ![Nmap Service Scan](screenshots/lab12-nmap-service-scan.png)
 
