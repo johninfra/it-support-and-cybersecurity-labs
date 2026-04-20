@@ -6,9 +6,12 @@ This repository showcases hands on IT support and cybersecurity labs designed to
 ---
 
 ## Career Objective
-IT support and cybersecurity candidate with hands on experience troubleshooting Windows systems, Active Directory environments, and network configurations across virtual lab environments.
 
-Seeking an entry level help desk or IT support role where I can apply structured troubleshooting, resolve user issues, and build toward a cybersecurity focused career.
+IT Support and Help Desk professional with hands-on experience troubleshooting Windows systems, managing user access, and supporting enterprise environments through both real-world roles and virtual lab simulations.
+
+Skilled in diagnosing technical issues, resolving user access problems, and working with Active Directory, networking, and system configurations.
+
+Seeking an entry-level IT support or help desk role where I can deliver efficient technical solutions, support end users, and continue building toward a cybersecurity-focused career.
 
 ---
 
