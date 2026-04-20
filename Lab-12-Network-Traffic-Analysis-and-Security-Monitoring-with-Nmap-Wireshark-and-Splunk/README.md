@@ -42,6 +42,7 @@ Both virtual machines were connected to the same subnet to allow communication a
 
 Opened Command Prompt on the Windows virtual machine and used ipconfig to identify the system IP address.
 
+```cmd
 ipconfig
 ```
 
@@ -142,7 +143,7 @@ tcp
 
 ### Step 10 - Accessed Splunk
 
-Opened Splunk and navigated to the Home dashboard.
+Opened Splunk and navigated to the Search and Reporting dashboard.
 
 ![Splunk Home](screenshots/lab12-splunk-home.png)
 
@@ -164,13 +165,27 @@ host=*
 ---
 
 ## Commands Used
-- ip a
-- nmap -sn 192.168.110.0/24
-- nmap -Pn -sV [windows-ip]
-- ping -c 4 [windows-ip]
-- nmap -Pn [windows-ip]
-- cmd
-- ipconfig
+
+```bash
+ip a
+nmap -sn 192.168.110.0/24
+nmap -Pn -sV [windows-ip]
+ping -c 4 [windows-ip]
+nmap -Pn [windows-ip]
+```
+
+```cmd
+ipconfig
+```
+
+```text
+icmp
+tcp
+index=main
+index=main sourcetype=WinEventLog:Security
+*
+host=*
+```
 
 ---
 
@@ -206,4 +221,3 @@ A workstation on the internal virtual network needed to be identified, tested fo
 ## Conclusion
 
 This lab provided practical experience using multiple industry standard tools in a controlled environment. Nmap was used to identify systems and enumerate services, Wireshark was used to capture and analyze network traffic, and Splunk was used to review log data. The workflow demonstrated how network activity can be generated, monitored, and investigated across different platforms. This type of hands on experience directly reflects real world IT support and cybersecurity responsibilities.
-```
