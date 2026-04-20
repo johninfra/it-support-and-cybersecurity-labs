@@ -42,9 +42,7 @@ Both virtual machines were connected to the same subnet to allow communication a
 
 Opened Command Prompt on the Windows virtual machine and used ipconfig to identify the system IP address.
 
-```bash
-ipconfig
-```
+- ipconfig
 
 ![Windows IP Configuration](screenshots/lab12-windows-ipconfig.png)
 
@@ -54,9 +52,7 @@ ipconfig
 
 Opened the Kali Linux terminal and used ip a to determine the IP address of the attacker machine.
 
-```bash
-ip a
-```
+- ip a
 
 ![Kali Linux IP](screenshots/lab12-kali-ip.png)
 
@@ -66,9 +62,7 @@ ip a
 
 Performed a ping scan across the subnet to identify active systems on the network.
 
-```bash
-nmap -sn 192.168.110.0/24
-```
+- nmap -sn 192.168.110.0/24
 
 ![Nmap Host Discovery](screenshots/lab12-nmap-host-discovery.png)
 
@@ -78,9 +72,7 @@ nmap -sn 192.168.110.0/24
 
 Executed a targeted Nmap scan against the Windows VM to identify open ports and running services.
 
-```bash
-nmap -Pn -sV [windows-ip]
-```
+- nmap -Pn -sV [windows-ip]
 
 ![Nmap Service Scan](screenshots/lab12-nmap-service-scan.png)
 
@@ -90,9 +82,7 @@ nmap -Pn -sV [windows-ip]
 
 Used ping from Kali Linux to confirm communication with the Windows system.
 
-```bash
-ping -c 4 [windows-ip]
-```
+- ping -c 4 [windows-ip]
 
 ![Ping Test](screenshots/lab12-ping-test.png)
 
