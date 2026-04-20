@@ -1,7 +1,7 @@
 # IT Support and Cybersecurity Lab Portfolio
 
 ## About This Repository
-This repository showcases hands on IT support and cybersecurity labs designed to simulate real world help desk and system administration scenarios. Each lab demonstrates practical experience in troubleshooting, user management, networking, and system configuration within virtual environments.
+This repository showcases hands on IT support and cybersecurity labs designed to simulate real world help desk and system administration scenarios. Each lab demonstrates practical experience in troubleshooting, user management, networking, and system configuration within virtual and remote environments.
 
 ---
 
