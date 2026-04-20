@@ -165,26 +165,16 @@ host=*
 ---
 
 ## Commands Used
-
-```bash
-ip a
-nmap -sn 192.168.110.0/24
-nmap -Pn -sV [windows-ip]
-ping -c 4 [windows-ip]
-nmap -Pn [windows-ip]
-```
-
-```cmd
-ipconfig
-```
-
-```text
-icmp
-tcp
-index=main
-index=main sourcetype=WinEventLog:Security
-*
-host=*
+- ip a
+- nmap -sn 192.168.110.0/24
+- nmap -Pn -sV [windows-ip]
+- ping -c 4 [windows-ip]
+- nmap -Pn [windows-ip]
+- ipconfig
+- icmp
+- tcp
+- index=main
+- index=main sourcetype=WinEventLog:Security
 ```
 
 ---
