@@ -170,12 +170,12 @@ Executed search queries in Splunk to view available system logs.
 
 ---
 
-## Ticket Scenario
-
-A workstation on the internal virtual network needed to be identified, tested for connectivity, and reviewed for visible network activity. The objective was to verify that the system was reachable, observe live traffic generated during basic reconnaissance, and confirm whether system logs could be reviewed in Splunk for monitoring purposes. This simulates a real world IT and security workflow involving host discovery, packet analysis, and log visibility.
-
----
-
 ## Conclusion
 
 This lab provided practical experience using multiple industry standard tools in a controlled environment. Nmap was used to identify systems and enumerate services, Wireshark was used to capture and analyze network traffic, and Splunk was used to review log data. The workflow demonstrated how network activity can be generated, monitored, and investigated across different platforms. This type of hands on experience directly reflects real world IT support and cybersecurity responsibilities.
+
+---
+
+## Ticket Scenario
+
+A workstation on the internal virtual network needed to be identified, tested for connectivity, and reviewed for visible network activity. The objective was to verify that the system was reachable, observe live traffic generated during basic reconnaissance, and confirm whether system logs could be reviewed in Splunk for monitoring purposes. This simulates a real world IT and security workflow involving host discovery, packet analysis, and log visibility.
