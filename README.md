@@ -91,11 +91,11 @@ Analyzed network traffic using Wireshark and monitored logs using Splunk to iden
 
 ---
 
-## Career Objective  
+## Career Objective
 
-Hands on IT support and cybersecurity candidate with proven experience diagnosing and resolving real world technical issues across Windows systems, Active Directory, networking, and virtual environments.
+IT support and cybersecurity candidate with hands on experience troubleshooting Windows systems, Active Directory environments, and network configurations across virtual lab environments.
 
-Seeking an entry level help desk or IT support role where I can immediately contribute through structured troubleshooting, ticket resolution, and system administration while progressing toward a cybersecurity career.
+Seeking an entry level help desk or IT support role where I can apply structured troubleshooting, resolve user issues, and build toward a cybersecurity focused career.
 
 ---
 
