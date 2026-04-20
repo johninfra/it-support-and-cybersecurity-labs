@@ -39,6 +39,9 @@ Simulated desktop support tasks by installing software, verifying application fu
 ### Lab 11 - Enterprise Windows Troubleshooting Ticket  
 Simulated a real world help desk ticket involving a Windows printer failure. Diagnosed the issue using system tools, resolved it by restarting the Print Spooler service, and verified functionality through a successful test print, following a structured troubleshooting workflow.
 
+### Lab 12 - Network Traffic Analysis and Security Monitoring
+Performed network reconnaissance using Nmap, verified connectivity, captured and analyzed ICMP and TCP traffic in Wireshark, and reviewed system logs in Splunk to simulate real world monitoring and investigation workflows.
+
 ## Key Skills Demonstrated
 - Active Directory user and access management
 - Network troubleshooting and DNS diagnostics
