@@ -178,4 +178,17 @@ This lab provided practical experience using multiple industry standard tools in
 
 ## Ticket Scenario
 
-A workstation on the internal virtual network needed to be identified, tested for connectivity, and reviewed for visible network activity. The objective was to verify that the system was reachable, observe live traffic generated during basic reconnaissance, and confirm whether system logs could be reviewed in Splunk for monitoring purposes. This simulates a real world IT and security workflow involving host discovery, packet analysis, and log visibility.
+**Scenario:**  
+A workstation on the internal network needed to be analyzed after unusual network activity was suspected during routine monitoring.
+
+**Issue:**  
+The system’s network behavior was unknown, and there was a need to verify connectivity, identify open services, and determine what traffic was being generated on the network.
+
+**Diagnosis:**  
+Used Nmap to discover active hosts and enumerate open ports and services on the target system. Verified connectivity using ping. Captured live network traffic using Wireshark and applied ICMP and TCP filters to analyze communication. Accessed Splunk to review available system and event logs for additional visibility.
+
+**Resolution:**  
+Confirmed the system was reachable, identified active services, and validated normal network communication through packet analysis. Verified that logs were being collected and could be reviewed in Splunk for monitoring purposes.
+
+**Verification:**  
+Successful ping responses confirmed connectivity. Nmap results displayed open ports and services. Wireshark showed ICMP and TCP traffic corresponding to generated activity. Splunk returned log data, confirming that system monitoring was functional.
