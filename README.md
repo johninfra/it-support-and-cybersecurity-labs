@@ -60,7 +60,7 @@ Simulated DNS failure and restored name resolution using command-line diagnostic
 Resolved a printer failure by diagnosing the issue, restarting the Print Spooler service, and verifying functionality with a successful test print.
 
 ### Lab 12 - Network Traffic Analysis and Monitoring
-Captured and analyzed live network traffic using Wireshark and performed network scanning with Nmap to identify hosts, ports, and protocols.
+Captured and analyzed live network traffic using Wireshark and performed network scanning with Nmap to identify active hosts, open ports, and protocols. Ingested and analyzed log data in Splunk to simulate SIEM-based monitoring, validate event visibility, and support basic security analysis workflows.
 
 ---
 
