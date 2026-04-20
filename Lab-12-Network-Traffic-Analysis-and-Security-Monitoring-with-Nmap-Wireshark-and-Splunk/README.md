@@ -143,7 +143,7 @@ tcp
 
 ### Step 10 - Accessed Splunk
 
-Opened Splunk and navigated to the Search and Reporting dashboard.
+Opened Splunk and navigated to the Home dashboard.
 
 ![Splunk Home](screenshots/lab12-splunk-home.png)
 
