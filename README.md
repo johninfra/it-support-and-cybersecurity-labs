@@ -76,7 +76,7 @@ Captured and analyzed live network traffic using Wireshark and performed network
 - Lab 09 - Password Reset and Account Unlock  
 - Lab 10 - Software Installation and Printer Troubleshooting  
 - Lab 11 - Windows Troubleshooting Ticket  
-- Lab 12 - Network Traffic Analysis  
+- Lab 12 - Network Traffic Analysis and Security Monitoring
 
 ---
 
