@@ -106,7 +106,7 @@ This lab demonstrates how to configure Active Directory users, security groups, 
 - Accessed HR_Folder successfully  
 - Attempted SharedFolder and received access denied  
 
-![Access Success](screenshots/access-success.png)
+![Access Success](screenshots/access-successhr.png)
 
 ---
 
