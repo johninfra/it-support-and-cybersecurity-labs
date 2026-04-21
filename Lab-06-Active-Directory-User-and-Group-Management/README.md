@@ -42,5 +42,6 @@ This lab demonstrates how to create and manage users and groups in Active Direct
 - Organizational unit navigation  
 - Enterprise user management workflows  
 
-## Result
-Successfully controlled access to a shared resource using Active Directory groups.
+## Conclusion
+
+This lab successfully demonstrated the process of creating and managing users and groups within Active Directory, along with assigning and validating permissions to shared resources. By implementing proper group-based access control, this lab reinforced best practices for managing user access efficiently and securely in a domain environment. The ability to verify access and troubleshoot permission issues reflects real world help desk and system administration responsibilities, making this a foundational skill for IT support and cybersecurity roles.
