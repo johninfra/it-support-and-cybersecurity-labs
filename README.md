@@ -26,37 +26,43 @@ Simulated real-world help desk operations by managing multiple support tickets f
 ## Labs Included  
 
 Lab 13 - Help Desk Ticket Workflow Simulation  
-Simulated real-world help desk operations by managing multiple support tickets from intake to resolution. Troubleshot issues involving Active Directory, network connectivity, permissions, and printing, while documenting workflows, prioritizing requests, and performing proper escalation procedures.
+Simulated real-world help desk operations by managing multiple support tickets from intake to resolution, including Active Directory tasks, network troubleshooting, permissions, printing, and escalation procedures.
 
-Lab 04 - Active Directory User and Access Management  
-Created and managed domain users, groups, shared folders, and access controls in a Windows Server Active Directory environment.
+Lab 12 - Network Traffic Analysis and Security Monitoring with Nmap, Wireshark, and Splunk  
+Captured and analyzed network traffic using Wireshark, performed network scanning with Nmap, and monitored logs in Splunk to demonstrate basic security monitoring and threat detection.
 
-Lab 05 - Network Drive Mapping and File Sharing  
-Configured shared folders, assigned permissions, and mapped network drives between systems to simulate enterprise file access.
+Lab 11 - Windows Troubleshooting Ticket  
+Simulated a real-world support ticket by diagnosing and resolving Windows system issues using structured troubleshooting steps and documentation.
 
-Lab 03 - Network Troubleshooting and Connectivity Restoration  
-Diagnosed and resolved network connectivity issues in a VMware NAT environment, restoring proper DHCP behavior and communication between systems.
+Lab 10 - Software Installation and Printer Troubleshooting  
+Installed software and resolved printer-related issues by clearing queues, restarting services, and verifying system functionality.
 
-Lab 09 - Account Management and Security Troubleshooting  
-Performed password resets, account unlocks, and identity verification tasks while validating access and system permissions.
+Lab 09 - Password Reset and Account Lockout Support  
+Performed password resets and account unlocks in Active Directory while verifying user access and authentication issues.
 
-Lab 11 - Splunk SIEM Log Analysis  
-Installed and configured Splunk to collect and analyze logs, demonstrating basic SIEM functionality and security monitoring.
+Lab 08 - DNS and Network Connectivity Troubleshooting  
+Diagnosed and resolved DNS and connectivity issues using tools like ping, nslookup, and ipconfig to restore network access.
 
-Lab 01 - Network Reconnaissance and Service Enumeration  
-Used Kali Linux and Nmap to identify hosts, test connectivity, and enumerate open ports and services on a Windows target machine.
+Lab 07 - Remote IT Support Simulation  
+Simulated remote support scenarios by troubleshooting user issues, guiding resolutions, and documenting steps as if assisting end users.
 
 Lab 06 - Active Directory User and Group Management  
-Managed domain users and groups, applying access control principles and organizational unit structure.
+Managed domain users and groups, applying access control and organizational unit structure in a Windows Server environment.
+
+Lab 05 - Network Drive Mapping and File Sharing  
+Configured shared folders, assigned permissions, and mapped network drives to enable secure file access between systems.
+
+Lab 04 - Active Directory Access Control  
+Created and managed users, groups, and permissions to control access to shared resources in an enterprise environment.
+
+Lab 03 - Network Troubleshooting  
+Diagnosed and resolved network connectivity issues in a virtual environment by restoring DHCP configuration and verifying communication between systems.
 
 Lab 02 - Linux System Operations and File Permission Management  
-Performed Linux command line operations, directory management, and permission configuration using chmod and sudo.
+Performed Linux command line operations, directory management, and file permission configuration using chmod and sudo.
 
-Lab 10 - Windows Troubleshooting and System Support  
-Simulated common help desk issues including software installation, system errors, and troubleshooting workflows.
-
-Lab 12 - Network Traffic Analysis with Wireshark  
-Captured and analyzed ICMP and TCP traffic using Wireshark to understand packet-level communication and network behavior.
+Lab 01 - Network Reconnaissance  
+Used Nmap on Kali Linux to scan a Windows system, identify open ports, and enumerate services in a controlled lab environment.
 
 ---
 
