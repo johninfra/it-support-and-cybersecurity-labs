@@ -1,98 +1,89 @@
-# IT Support and Cybersecurity Lab Portfolio
+# IT Support and Cybersecurity Lab Portfolio  
 
-## About This Repository
-This repository showcases hands-on IT support and cybersecurity labs that simulate real-world help desk and system administration scenarios. Each lab demonstrates applied experience in troubleshooting, user access management, networking, and system configuration across virtual environments.
-
----
-
-## Career Objective
-IT Support and Help Desk professional with hands-on experience supporting users, troubleshooting Windows systems, and managing access in secure environments across both real-world roles and lab-based environments.
-
-Skilled in diagnosing technical issues, resolving user access problems, and maintaining efficient support workflows in both onsite and remote settings.
-
-Seeking an IT support or help desk role where I can deliver reliable technical solutions, support end users, and continue building toward a cybersecurity-focused career.
+## About This Repository  
+This repository showcases hands-on IT support and cybersecurity labs designed to simulate real-world help desk and system administration environments. Each lab demonstrates practical experience in troubleshooting, user management, networking, and system configuration using virtual machines and enterprise-style workflows.
 
 ---
 
-## Technical Skills
+## Core Competencies  
 
-### Systems and Administration
+- IT Support and Help Desk Troubleshooting  
+- Active Directory User and Access Management  
+- Network Diagnostics and Connectivity Issues  
+- Ticket Workflow Documentation and Resolution  
+- Windows and Linux System Administration  
+- Basic Security Monitoring and Log Analysis  
+
+---
+
+## Featured Lab  
+
+Lab 13 - Help Desk Ticket Workflow Simulation  
+Simulated real-world help desk operations by managing multiple support tickets from intake to resolution. Troubleshot issues involving Active Directory, network connectivity, permissions, and printing, while documenting workflows, prioritizing requests, and performing proper escalation procedures.
+
+---
+
+## Labs Included  
+
+Lab 13 - Help Desk Ticket Workflow Simulation  
+Simulated real-world help desk operations by managing multiple support tickets from intake to resolution. Troubleshot issues involving Active Directory, network connectivity, permissions, and printing, while documenting workflows, prioritizing requests, and performing proper escalation procedures.
+
+Lab 04 - Active Directory User and Access Management  
+Created and managed domain users, groups, shared folders, and access controls in a Windows Server Active Directory environment.
+
+Lab 05 - Network Drive Mapping and File Sharing  
+Configured shared folders, assigned permissions, and mapped network drives between systems to simulate enterprise file access.
+
+Lab 03 - Network Troubleshooting and Connectivity Restoration  
+Diagnosed and resolved network connectivity issues in a VMware NAT environment, restoring proper DHCP behavior and communication between systems.
+
+Lab 09 - Account Management and Security Troubleshooting  
+Performed password resets, account unlocks, and identity verification tasks while validating access and system permissions.
+
+Lab 11 - Splunk SIEM Log Analysis  
+Installed and configured Splunk to collect and analyze logs, demonstrating basic SIEM functionality and security monitoring.
+
+Lab 01 - Network Reconnaissance and Service Enumeration  
+Used Kali Linux and Nmap to identify hosts, test connectivity, and enumerate open ports and services on a Windows target machine.
+
+Lab 06 - Active Directory User and Group Management  
+Managed domain users and groups, applying access control principles and organizational unit structure.
+
+Lab 02 - Linux System Operations and File Permission Management  
+Performed Linux command line operations, directory management, and permission configuration using chmod and sudo.
+
+Lab 10 - Windows Troubleshooting and System Support  
+Simulated common help desk issues including software installation, system errors, and troubleshooting workflows.
+
+Lab 12 - Network Traffic Analysis with Wireshark  
+Captured and analyzed ICMP and TCP traffic using Wireshark to understand packet-level communication and network behavior.
+
+---
+
+## Tools and Technologies  
+
 - Windows 10 and Windows 11  
 - Windows Server 2022  
 - Active Directory Users and Computers  
-- User account management and group-based access control  
-
-### Networking
-- IP addressing and subnetting  
-- DNS troubleshooting and name resolution  
-- Network connectivity diagnostics (ICMP, TCP/IP)  
-- NAT and host-only virtual environments  
-
-### Tools and Technologies
 - VMware Workstation  
-- Nmap  
-- Wireshark  
 - Command Prompt and PowerShell  
-- Kali Linux  
+- Wireshark  
+- Nmap  
 - Splunk  
-
-### IT Support Skills
-- Help desk ticket resolution and documentation  
-- Printer troubleshooting and service management  
-- Software installation and system configuration  
-- Network drive mapping and permissions  
-- Password resets and account unlocks  
+- Kali Linux  
 
 ---
 
-## Featured Labs
+## Career Objective  
 
-### Lab 03 - Network Troubleshooting and Connectivity Restoration
-Identified and resolved a network connectivity issue caused by DHCP misconfiguration by restoring proper IP assignment and validating connectivity.
+IT support and help desk professional with hands-on experience troubleshooting systems, managing users in Active Directory, and resolving network and access issues in virtual lab environments.  
 
-### Lab 04 - Active Directory Access Control
-Created and managed domain users, assigned security groups, configured shared folders, and applied NTFS permissions to enforce access control.
+Experienced in documenting solutions, simulating real-world ticket workflows, and supporting users across Windows-based systems.  
 
-### Lab 08 - DNS and Network Connectivity Troubleshooting
-Simulated DNS failure and restored name resolution using command-line diagnostics and network troubleshooting techniques.
-
-### Lab 11 - Enterprise Windows Troubleshooting Ticket
-Resolved a printer failure by diagnosing the issue, restarting the Print Spooler service, and verifying functionality with a successful test print.
-
-### Lab 12 - Network Traffic Analysis and Monitoring
-Captured and analyzed live network traffic using Wireshark and performed network scanning with Nmap to identify active hosts, open ports, and protocols. Ingested and queried log data in Splunk to simulate SIEM monitoring, verify log collection, and analyze events for visibility into network activity and potential security issues.
-
-### Lab 13 - Help Desk Ticket Workflow Simulation  
-Simulated a real-world help desk environment by handling multiple IT support tickets, including password resets, account lockouts, network issues, permissions, printer troubleshooting, and escalation procedures. Demonstrated structured troubleshooting, prioritization, documentation, and resolution workflows aligned with enterprise support environments.
+Seeking an entry-level IT support or help desk role where I can provide reliable technical assistance, contribute to team operations, and continue developing toward a cybersecurity-focused career.
 
 ---
 
-## Labs Included
-- Lab 01 - Network Reconnaissance and Service Enumeration  
-- Lab 02 - Linux System Operations and File Permissions  
-- Lab 03 - Network Troubleshooting  
-- Lab 04 - Active Directory Access Control  
-- Lab 05 - Network Drive Mapping and File Sharing  
-- Lab 06 - Active Directory User and Group Management  
-- Lab 07 - Remote IT Support Simulation  
-- Lab 08 - DNS and Network Connectivity  
-- Lab 09 - Password Reset and Account Unlock  
-- Lab 10 - Software Installation and Printer Troubleshooting  
-- Lab 11 - Windows Troubleshooting Ticket  
-- Lab 12 - Network Traffic Analysis and Security Monitoring
-- Lab 13 - Help Desk Ticket Workflow Simulation 
-
----
-
-## Key Skills Demonstrated
-- Active Directory user and access management  
-- Network troubleshooting and DNS diagnostics  
-- Windows system administration  
-- Help desk ticket resolution workflows  
-- Remote support and issue remediation  
-- Virtual machine configuration and lab environments  
-
----
-
-## Conclusion
-This portfolio demonstrates applied experience performing IT support and cybersecurity tasks in structured lab environments that mirror real-world scenarios. The labs highlight the ability to troubleshoot technical issues, manage systems, and follow standard help desk workflows used in enterprise environments.
+## Contact  
+ 
+Email: j.tyler.pro@gmail.com  
