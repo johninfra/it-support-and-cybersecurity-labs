@@ -88,9 +88,8 @@ User successfully logged in without further issues.
 **Verification:**  
 User regained internet access and could browse successfully.
 
-**Screenshots:**  
-![IP Config](screenshots/ticket003-ipconfig.png)  
-![Ping Test](screenshots/ticket003-ping-test.png)
+**Screenshot:**   
+![Ping Test](screenshots/ticket003-pingtest.png)
 
 ---
 
