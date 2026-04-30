@@ -70,7 +70,7 @@ Lab 01 - Network Reconnaissance
 
 - Windows 10 and Windows 11  
 - Windows Server 2022  
-- Active Directory Users and Computers  
+- Active Directory Domain Controller
 - VMware Workstation  
 - Command Prompt and PowerShell  
 - Wireshark  
