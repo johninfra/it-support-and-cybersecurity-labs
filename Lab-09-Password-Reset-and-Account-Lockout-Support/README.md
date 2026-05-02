@@ -111,7 +111,9 @@ Ran whoami to confirm the logged in domain user
 - Account unlock procedures  
 - User authentication troubleshooting  
 - Identity and access management basics  
-- Help desk support workflows  
+- Help desk support workflows
+
+---
 
 ## Conclusion  
 This lab provided practical experience with password reset and account lockout scenarios in a domain environment. It demonstrated how IT support professionals assist users who are unable to access their accounts. By completing this lab, I strengthened my understanding of Active Directory account management and improved my ability to troubleshoot common login issues. These skills are essential for entry level IT support and help desk roles.
