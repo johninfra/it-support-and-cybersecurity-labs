@@ -54,7 +54,14 @@ This lab demonstrates how to diagnose and resolve DNS related network issues.
 - Network connectivity testing using ping  
 - IP configuration analysis  
 - Command line networking tools  
-- Identifying and resolving network issues  
+- Identifying and resolving network issues
+
+---
+
+## Conclusion
+This lab showed how DNS issues can affect network connectivity and how basic troubleshooting tools can be used to identify and resolve the problem. By testing IP configuration, verifying DNS settings, using command line tools, and checking connectivity between the client and domain controller, this lab demonstrated a practical troubleshooting process used in real IT support environments.
+
+---
 
 ## Result
 Successfully identified and resolved DNS issues affecting connectivity.
