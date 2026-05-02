@@ -5,6 +5,11 @@ This lab demonstrates how to create and manage users and groups in Active Direct
 
 ---
 
+## Lab Setup
+This lab was completed in a VMware Workstation Player environment using a Windows Server 2022 virtual machine as the domain controller and a Windows 10 Pro client joined to the `corp.local` domain. The setup included Active Directory Users and Computers for creating user accounts, managing security groups, and assigning access to shared resources. A shared folder was configured with group based permissions, and the domain joined client was used to validate that users could only access the resources allowed by their assigned group membership.
+
+---
+
 ## Skills Demonstrated
 - Active Directory user creation
 - Security group management
