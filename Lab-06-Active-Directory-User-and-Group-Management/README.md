@@ -6,14 +6,14 @@ This lab demonstrates how to create and manage users and groups in Active Direct
 ---
 
 ## Lab Setup
-- **Host Machine:** Windows Laptop
-- **Virtualization:** VMware Workstation Player
-- **Domain Controller:** Windows Server 2022 DC1
-- **Client Machine:** Windows 10 or Windows 11 VM joined to the domain
-- **Domain:** corp.local
-- **Network Type:** NAT same subnet
-- **Management Tool:** Active Directory Users and Computers
-- **Shared Resource:** Shared folder with group based permissions
+- Host Machine:** Windows Laptop
+- Virtualization:** VMware Workstation Player
+- Domain Controller:** Windows Server 2022 DC1
+- Client Machine:** Windows 10 or Windows 11 VM joined to the domain
+- Domain:** corp.local
+- Network Type:** NAT same subnet
+- Management Tool:** Active Directory Users and Computers
+- Shared Resource:** Shared folder with group based permissions
 
 ---
 
