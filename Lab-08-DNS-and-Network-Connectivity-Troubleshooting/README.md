@@ -5,6 +5,19 @@ This lab demonstrates how to diagnose and resolve DNS related network issues.
 
 ---
 
+## Lab Setup
+- Host Machine: Windows Laptop
+- Virtualization: VMware Workstation Player
+- Domain Controller: Windows Server 2022 DC1
+- Client Machine: Windows 10 or Windows 11 VM joined to the domain
+- Domain: corp.local
+- Network Type: NAT same subnet
+- Primary Tools: Command Prompt, PowerShell, DNS Manager
+- Testing Commands: ipconfig, ping, nslookup, tracert
+- Troubleshooting Focus: DNS resolution and network connectivity validation
+
+---
+
 ## Skills Demonstrated
 - DNS troubleshooting
 - Network testing
