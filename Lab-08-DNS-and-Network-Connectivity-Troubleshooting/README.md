@@ -18,10 +18,18 @@ This lab demonstrates how to diagnose and resolve DNS related network issues.
 
 ---
 
-## Skills Demonstrated
-- DNS troubleshooting
-- Network testing
-- Command line tools
+## Tools Used
+- VMware Workstation Player
+- Windows Server 2022
+- Windows 10 or Windows 11
+- Active Directory Users and Computers
+- DNS Manager
+- Command Prompt
+- PowerShell
+- ipconfig
+- ping
+- nslookup
+- tracert
 
 ---
 
