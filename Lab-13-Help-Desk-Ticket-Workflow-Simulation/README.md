@@ -1,4 +1,4 @@
-# Lab 13 - Help Desk Ticket Workflow Simulation
+# Help Desk Ticket Workflow Simulation
 
 ## Overview  
 This lab simulates a real-world help desk environment by documenting multiple IT support tickets from intake to resolution. The objective is to demonstrate the ability to troubleshoot common technical issues, prioritize requests, document actions clearly, and follow a structured support workflow similar to enterprise IT environments.
