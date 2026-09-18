@@ -1,4 +1,4 @@
-#  Lab 01 - Network Reconnaissance and Service Enumeration
+# Network Reconnaissance and Service Enumeration
 
 ## Overview  
 This lab demonstrates a basic cybersecurity home lab where network reconnaissance was performed using Kali Linux against a Windows virtual machine. The objective was to simulate real world penetration testing techniques by identifying open ports and exposed services within a controlled environment.
