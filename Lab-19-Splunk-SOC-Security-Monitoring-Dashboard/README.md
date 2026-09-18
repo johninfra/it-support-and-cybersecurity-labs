@@ -1,4 +1,4 @@
-# Lab 19: Splunk SOC Security Monitoring Dashboard
+# Splunk SOC Security Monitoring Dashboard
 
 ## Overview
 
