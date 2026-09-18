@@ -1,4 +1,4 @@
-# Lab 16 - Windows Host Port Scanning with Metasploit
+# Windows Host Port Scanning with Metasploit
 
 ## Overview
 
