@@ -1,4 +1,4 @@
-# Lab 6 - Active Directory User and Group Management
+# Active Directory User and Group Management
 
 ## Overview
 This lab demonstrates how to create and manage users and groups in Active Directory and assign permissions to shared resources.
