@@ -1,4 +1,4 @@
-# Lab 5 - Network Drive Mapping and File Sharing
+# Network Drive Mapping and File Sharing
 
 ## Overview
 This lab demonstrates how to configure network file sharing and map a network drive in a Windows environment. The objective was to simulate a real world IT support scenario where shared resources are created and accessed across machines on the same network.
