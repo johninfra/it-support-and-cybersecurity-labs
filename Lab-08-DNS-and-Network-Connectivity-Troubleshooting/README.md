@@ -1,4 +1,4 @@
-# Lab 8 - DNS and Network Connectivity Troubleshooting
+# DNS and Network Connectivity Troubleshooting
 
 ## Overview
 This lab demonstrates how to diagnose and resolve DNS related network issues.
