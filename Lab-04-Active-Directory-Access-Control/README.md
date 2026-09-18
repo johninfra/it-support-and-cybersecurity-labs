@@ -1,4 +1,4 @@
-# Lab 4 - Active Directory Group Based Access Control and Network Share Permissions
+# Active Directory Group Based Access Control and Network Share Permissions
 
 ## Overview
 This lab demonstrates how to configure Active Directory users, security groups, and shared folder permissions in a Windows domain environment. The objective was to simulate a real world IT scenario where access to shared resources is controlled using group based permissions and NTFS security.
