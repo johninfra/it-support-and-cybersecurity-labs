@@ -1,4 +1,4 @@
-# Lab 17 - SMB Fingerprinting and Security Enumeration with Metasploit
+# SMB Fingerprinting and Security Enumeration with Metasploit
 
 ## Overview
 
