@@ -1,4 +1,4 @@
-# Lab 25 - Linux Server Administration, SSH, Nginx Web Server Deployment, and SSL/TLS Configuration
+# Linux Server Administration, SSH, Nginx Web Server Deployment, and SSL/TLS Configuration
 
 ## Overview
 
