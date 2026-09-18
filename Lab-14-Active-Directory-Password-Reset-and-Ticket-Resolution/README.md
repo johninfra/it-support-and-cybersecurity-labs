@@ -1,4 +1,4 @@
-# Lab 14 - Active Directory Password Reset and Ticket Resolution
+# Active Directory Password Reset and Ticket Resolution
 
 ## Overview
 This lab demonstrates a common Tier 1 help desk support scenario involving a user password reset in Active Directory. The objective was to simulate a real world support ticket where an end user forgot their password, submitted a support request, and required account access restoration. The ticket was documented, resolved through Active Directory Users and Computers (ADUC), and then properly closed after successful password reset verification.
