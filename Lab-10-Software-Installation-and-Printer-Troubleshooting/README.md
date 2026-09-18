@@ -1,4 +1,4 @@
-# Lab 10 - Software Installation and Printer Troubleshooting
+# Software Installation and Printer Troubleshooting
 
 ## Overview  
 This lab demonstrates basic desktop support tasks in a Windows environment by installing software and troubleshooting printer functionality. The goal was to simulate a real world IT support scenario where an end user needs a program installed and a printer tested to confirm successful output.
