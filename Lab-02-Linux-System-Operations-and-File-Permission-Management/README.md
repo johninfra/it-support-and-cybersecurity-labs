@@ -1,4 +1,4 @@
-# Lab 2 - Linux System Operations and File Permission Management
+# Linux System Operations and File Permission Management
 
 ## Overview
 This lab demonstrates basic Linux command line operations and file permission management using Kali Linux. The objective was to gain hands on experience navigating the file system, creating and deleting directories, using elevated privileges, and modifying file permissions for scripts.
