@@ -1,4 +1,4 @@
-# Lab 20: Configuring and Troubleshooting Remote Desktop Protocol (RDP) on Windows Server 2022
+# Configuring and Troubleshooting Remote Desktop Protocol (RDP) on Windows Server 2022
 
 ## Overview
 
