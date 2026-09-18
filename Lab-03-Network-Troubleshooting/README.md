@@ -1,4 +1,4 @@
-# Lab 3 - Network Troubleshooting
+# Network Troubleshooting
 
 ## Overview
 This lab demonstrates troubleshooting network connectivity issues in a VMware virtual environment. The issue occurred after manually releasing the IP configuration, which caused the system to lose network access.
