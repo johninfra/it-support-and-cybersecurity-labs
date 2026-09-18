@@ -1,4 +1,4 @@
-# Lab 21 – PowerShell Windows Health Check Automation
+# PowerShell Windows Health Check Automation
 
 ## Overview
 
