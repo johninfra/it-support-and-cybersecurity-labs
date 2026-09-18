@@ -1,4 +1,4 @@
-# Lab 7 - Remote IT Support Simulation
+# Remote IT Support Simulation
 
 ## Overview
 This lab simulates a real world IT support scenario where a technician remotely connects to a client machine, diagnoses a network issue, and restores connectivity using standard troubleshooting techniques.
