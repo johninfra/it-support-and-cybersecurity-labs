@@ -1,4 +1,4 @@
-# Lab 15 - Help Desk Ticketing and Cybersecurity Operations Web Application
+# Help Desk Ticketing and Cybersecurity Operations Web Application
 
 ## Overview
 This lab demonstrates the creation of a modern IT support and cybersecurity operations web application using AI assisted development tools. The objective was to simulate a real world enterprise help desk environment where technicians can manage support tickets, monitor security alerts, and perform Active Directory style account management tasks.
