@@ -1,4 +1,4 @@
-# Lab 12 - Network Traffic Analysis and Security Monitoring with Nmap, Wireshark, and Splunk
+# Network Traffic Analysis and Security Monitoring with Nmap, Wireshark, and Splunk
 
 ## Overview
 
