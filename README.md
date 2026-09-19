@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-This repository contains **26 enterprise-focused IT infrastructure, systems administration, Identity & Access Management (IAM), and cybersecurity labs** designed to simulate real-world enterprise environments.
+This repository contains **27 enterprise-focused IT infrastructure, systems administration, Identity & Access Management (IAM), cloud automation, and cybersecurity labs** designed to simulate real-world enterprise environments.
 
 Using Windows Server, Microsoft Entra ID, Active Directory, VMware, Splunk Enterprise, PowerShell, Microsoft Graph, and industry-standard administrative tools, these projects demonstrate practical experience deploying, configuring, securing, monitoring, and troubleshooting enterprise IT environments.
 
@@ -63,9 +63,15 @@ Each lab includes detailed documentation, screenshots, implementation steps, and
 - Enterprise Documentation
 
 ### Virtualization & Cloud
+- Microsoft Azure
+- Azure Virtual Machines
+- Microsoft Entra ID
+- Azure RBAC
+- GitHub Actions
+- OpenID Connect (OIDC) workload identity federation
+- Azure CLI
 - VMware Workstation
 - Virtual Machine Administration
-- Microsoft Entra ID
 
 ---
 
@@ -99,6 +105,7 @@ Each lab includes detailed documentation, screenshots, implementation steps, and
 | 24 | [PowerShell Security Awareness and Endpoint Posture Dashboard](./Lab-24-PowerShell-Security-Awareness-Dashboard/) | PowerShell automation, Defender, Windows Event Logs, WMI/CIM, security auditing, HTML reporting |
 | 25 | [Linux-Web-Infrastructure-and-Security-Configuration](./Lab-25-Linux-Web-Infrastructure-and-Security-Configuration/) | Linux Server Administration, SSH, Nginx Web Server Deployment, and SSL/TLS Configuration |
 | 26 | [Microsoft Entra ID Administration with PowerShell and Microsoft Graph](./Lab-26-Microsoft-EntraID-Administration-with-PowerShell-and-Microsoft-Graph/) | Microsoft Graph PowerShell, delegated OAuth scopes, Entra user/group enumeration, RBAC, privileged role verification, secure session management |
+| 27 | [Azure Windows Diagnostic Automation with GitHub Actions, Entra OIDC, and Azure RBAC](./Lab-27-Azure-Windows-Diagnostic-Automation/) | Azure VM automation, GitHub Actions, Entra workload identity federation, OIDC, Azure RBAC, Azure CLI, PowerShell, Run Command, HTML diagnostic reporting |
 
 ---
 
