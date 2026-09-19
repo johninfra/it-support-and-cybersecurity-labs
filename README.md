@@ -105,7 +105,7 @@ Each lab includes detailed documentation, screenshots, implementation steps, and
 | 24 | [PowerShell Security Awareness and Endpoint Posture Dashboard](./Lab-24-PowerShell-Security-Awareness-Dashboard/) | PowerShell automation, Defender, Windows Event Logs, WMI/CIM, security auditing, HTML reporting |
 | 25 | [Linux-Web-Infrastructure-and-Security-Configuration](./Lab-25-Linux-Web-Infrastructure-and-Security-Configuration/) | Linux Server Administration, SSH, Nginx Web Server Deployment, and SSL/TLS Configuration |
 | 26 | [Microsoft Entra ID Administration with PowerShell and Microsoft Graph](./Lab-26-Microsoft-EntraID-Administration-with-PowerShell-and-Microsoft-Graph/) | Microsoft Graph PowerShell, delegated OAuth scopes, Entra user/group enumeration, RBAC, privileged role verification, secure session management |
-| 27 | [Azure Windows Diagnostic Automation with GitHub Actions, Entra OIDC, and Azure RBAC](./Lab-27-Azure-Windows-Diagnostic-Automation/) | Azure VM automation, GitHub Actions, Entra workload identity federation, OIDC, Azure RBAC, Azure CLI, PowerShell, Run Command, HTML diagnostic reporting |
+| 27 | [Azure Windows Diagnostic Automation with GitHub Actions, Entra OIDC, and Azure RBAC](./Lab-27-Azure-Windows-Diagnostic-Automation-with-GitHub-Actions-OIDC/) | Azure VM automation, GitHub Actions, Entra workload identity federation, OIDC, Azure RBAC, Azure CLI, PowerShell, Run Command, HTML diagnostic reporting |
 
 ---
 
