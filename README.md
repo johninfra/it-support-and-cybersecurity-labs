@@ -2,76 +2,123 @@
 
 ## About This Repository
 
-This repository contains **27 enterprise-focused IT infrastructure, systems administration, Identity & Access Management (IAM), cloud automation, and cybersecurity labs** designed to simulate real-world enterprise environments.
+This repository contains **27 hands-on labs** spanning **IT support, systems administration, identity and access management (IAM), Microsoft Azure, cloud automation, networking, PowerShell, security operations, and cybersecurity**.
 
-Using Windows Server, Microsoft Entra ID, Active Directory, VMware, Splunk Enterprise, PowerShell, Microsoft Graph, and industry-standard administrative tools, these projects demonstrate practical experience deploying, configuring, securing, monitoring, and troubleshooting enterprise IT environments.
+The labs are designed around practical enterprise workflows rather than isolated theory. They document how I configure, administer, secure, troubleshoot, automate, and validate Windows, Linux, Active Directory, Microsoft Entra ID, Azure, Splunk, networking, and endpoint-security environments.
 
-Each lab includes detailed documentation, screenshots, implementation steps, and enterprise-focused explanations that mirror real operational workflows.
+The portfolio progresses from core help desk and infrastructure work into more advanced administration and automation, including **Microsoft Graph, Azure RBAC, GitHub Actions, OpenID Connect (OIDC) workload identity federation, Azure VM Run Command, PowerShell reporting, and cloud-based Windows administration**.
+
+Each lab includes implementation details, commands, screenshots, troubleshooting notes, security considerations, and business or operational context where applicable.
 
 ---
 
 ## Core Competencies
 
-### Identity & Access Management (IAM)
-- Microsoft Entra ID (Azure AD)
+### Identity & Access Management
+
+- Microsoft Entra ID
 - Active Directory
-- User Provisioning
-- Identity Lifecycle Management
-- Security Groups
+- User and group administration
+- Identity lifecycle workflows
+- Security groups
 - Role-Based Access Control (RBAC)
-- Least Privilege Administration
-- Password Resets & Account Unlocks
+- Microsoft Graph PowerShell
+- Delegated OAuth permissions
+- Workload identity federation
+- OpenID Connect (OIDC)
+- MFA and authentication support
+- Privileged-role verification
+- Least-privilege administration
+- Password resets and account unlocks
+
+### Microsoft Azure & Cloud Administration
+
+- Azure Virtual Machines
+- Azure resource groups
+- Azure RBAC
+- Microsoft Entra application registrations
+- Enterprise applications
+- Federated credentials
+- Azure CLI
+- Azure VM Run Command
+- GitHub-to-Azure OIDC authentication
+- VM lifecycle automation
+- Cloud troubleshooting
+- Cost-conscious VM deallocation
+- Persistent diagnostic reporting
 
 ### Systems Administration
+
 - Windows 10/11
 - Windows Server 2022
-- PowerShell Automation
-- Remote Desktop (RDP)
-- Remote Support
-- Endpoint Administration
-- Software Deployment
-- Asset Management
+- Linux administration
+- PowerShell automation
+- CIM/WMI
+- Remote Desktop Protocol (RDP)
+- SSH
+- Windows services
+- Event Viewer
+- Endpoint administration
+- File and share permissions
+- Software deployment
+- System health and diagnostic reporting
 
 ### Networking
+
 - TCP/IP
+- IPv4 configuration
 - DNS
 - DHCP
 - VPN
 - SMB
-- Network Troubleshooting
-- Wireshark
+- Default gateway and routing validation
+- Network connectivity troubleshooting
 - Nmap
+- Wireshark
+- Port and service enumeration
+- Packet capture and protocol analysis
 
 ### Security Operations
+
 - Splunk Enterprise
-- SIEM Monitoring
+- SIEM monitoring
+- SPL
 - Sysmon
+- Windows Security Logs
 - Windows Event Logs
-- Log Analysis
-- Incident Investigation
-- Threat Detection
-- Vulnerability Assessment
-- Security Monitoring
+- Microsoft Defender
+- Windows Firewall
+- Log analysis
+- Incident investigation
+- Threat detection
+- Vulnerability and posture assessment
+- Security monitoring and alerting
 
-### IT Operations
-- Technical Support
-- Help Desk Support
-- Service Desk Operations
+### IT Operations & Support
+
+- Tier 1–2 troubleshooting workflows
+- Help desk and service desk operations
 - ITSM
-- Ticket Management
-- Incident Management
-- Enterprise Documentation
+- Ticket prioritization
+- Incident documentation
+- Escalation
+- Remote support
+- Identity and access support
+- Printer and application troubleshooting
+- Standard operating procedures
+- Technical documentation
 
-### Virtualization & Cloud
-- Microsoft Azure
-- Azure Virtual Machines
-- Microsoft Entra ID
-- Azure RBAC
+### Automation & DevOps
+
+- PowerShell
 - GitHub Actions
-- OpenID Connect (OIDC) workload identity federation
+- CI/CD concepts
 - Azure CLI
-- VMware Workstation
-- Virtual Machine Administration
+- OIDC-based cloud authentication
+- Remote script execution
+- Automated HTML reporting
+- Repeatable administrative workflows
+- Source-controlled infrastructure operations
 
 ---
 
@@ -93,7 +140,7 @@ Each lab includes detailed documentation, screenshots, implementation steps, and
 | 12 | [Network Traffic Analysis and Security Monitoring](./Lab-12-Network-Traffic-Analysis-and-Security-Monitoring-with-Nmap-Wireshark-and-Splunk/) | Nmap, Wireshark, Splunk, packet capture, protocol filtering, log analysis |
 | 13 | [Help Desk Ticket Workflow Simulation](./Lab-13-Help-Desk-Ticket-Workflow-Simulation/) | Ticket prioritization, troubleshooting, documentation, escalation, resolution verification |
 | 14 | [Active Directory Password Reset and Ticket Resolution](./Lab-14-Active-Directory-Password-Reset-and-Ticket-Resolution/) | Active Directory support, password management, ticket documentation, issue closure |
-| 15 | [Help Desk Ticketing and Cybersecurity Operations Web Application](./Lab-15-Help-Desk-Ticketing-and-Cybersecurity-Operations-Web-Application/) | ITSM workflows, ticket management, user and asset relationships, security-alert simulation — [view the full LabDesk project](https://github.com/johninfra/labdesk-itsm-homelab) |
+| 15 | [Help Desk Ticketing and Cybersecurity Operations Web Application](./Lab-15-Help-Desk-Ticketing-and-Cybersecurity-Operations-Web-Application/) | ITSM workflows, ticket management, user and asset relationships, security-alert simulation |
 | 16 | [Windows Host Port Scanning with Metasploit](./Lab-16-Windows-Host-Port-Scanning-With-Metasploit/) | Metasploit, TCP port scanning, host discovery, service identification, exposure assessment |
 | 17 | [SMB Fingerprinting and Security Enumeration](./Lab-17-SMB-Fingerprinting-and-Security-Enumeration/) | SMB enumeration, protocol identification, host fingerprinting, security configuration analysis |
 | 18 | [Splunk SIEM Security Monitoring and Alerting Platform](./Lab-18-Splunk-SIEM-Security-Monitoring-and-Alerting-Platform/) | Splunk deployment, log ingestion, SPL, dashboards, real-time alerts, reconnaissance detection |
@@ -101,31 +148,98 @@ Each lab includes detailed documentation, screenshots, implementation steps, and
 | 20 | [Configuring and Troubleshooting RDP on Windows Server 2022](./Lab-20-Configuring-and-Troubleshooting-Remote-Desktop-Protocol-on-Windows-Server-2022/) | Windows Server, RDP, TCP/UDP 3389, firewall rules, remote-access troubleshooting |
 | 21 | [PowerShell Windows Health Check Automation](./Lab-21-PowerShell-Windows-Health-Check-Automation/) | PowerShell, CIM/WMI, CPU and memory monitoring, disk analysis, system reporting |
 | 22 | [PowerShell Vulnerability Management and Security Audit Framework](./Lab-22-PowerShell-Vulnerability-Management-and-Security-Audit-Framework/) | Endpoint inventory, security-control assessment, service analysis, risk reporting |
-| 23 | [Microsoft Entra ID Fundamentals](./Lab-23-Microsoft-EntraID-Fundamentals/) | Entra tenant deployment, cloud user provisioning, security groups, identity administration |
+| 23 | [Microsoft Entra ID Fundamentals](./Lab-23-Microsoft-EntraID-Fundamentals/) | Entra tenant administration, cloud user provisioning, security groups, identity administration |
 | 24 | [PowerShell Security Awareness and Endpoint Posture Dashboard](./Lab-24-PowerShell-Security-Awareness-Dashboard/) | PowerShell automation, Defender, Windows Event Logs, WMI/CIM, security auditing, HTML reporting |
-| 25 | [Linux-Web-Infrastructure-and-Security-Configuration](./Lab-25-Linux-Web-Infrastructure-and-Security-Configuration/) | Linux Server Administration, SSH, Nginx Web Server Deployment, and SSL/TLS Configuration |
-| 26 | [Microsoft Entra ID Administration with PowerShell and Microsoft Graph](./Lab-26-Microsoft-EntraID-Administration-with-PowerShell-and-Microsoft-Graph/) | Microsoft Graph PowerShell, delegated OAuth scopes, Entra user/group enumeration, RBAC, privileged role verification, secure session management |
-| 27 | [Azure Windows Diagnostic Automation with GitHub Actions, Entra OIDC, and Azure RBAC](./Lab-27-Azure-Windows-Diagnostic-Automation-with-GitHub-Actions-OIDC/) | Azure VM automation, GitHub Actions, Entra workload identity federation, OIDC, Azure RBAC, Azure CLI, PowerShell, Run Command, HTML diagnostic reporting |
+| 25 | [Linux Web Infrastructure and Security Configuration](./Lab-25-Linux-Web-Infrastructure-and-Security-Configuration/) | Ubuntu administration, SSH, Nginx deployment, systemd, web infrastructure, SSL/TLS configuration |
+| 26 | [Microsoft Entra ID Administration with PowerShell and Microsoft Graph](./Lab-26-Microsoft-EntraID-Administration-with-PowerShell-and-Microsoft-Graph/) | Microsoft Graph PowerShell, delegated OAuth scopes, Entra user/group enumeration, RBAC, privileged-role verification, secure session management |
+| 27 | [Azure Windows Diagnostic Automation with GitHub Actions, OIDC, and Azure RBAC](./Lab-27-Azure-Windows-Diagnostic-Automation-with-GitHub-Actions-OIDC/) | GitHub Actions, Entra workload identity federation, OIDC, Azure RBAC, Azure CLI, VM Run Command, Windows Server, PowerShell, persistent HTML reporting, VM lifecycle automation |
 
 ---
 
-## Tools and Technologies  
+## Selected High-Signal Labs
 
-- Windows 10 and Windows 11
-- Microsoft Entra ID
-- Microsoft Graph PowerShell SDK
-- Windows Server 2022  
-- Active Directory Domain Controller
-- VMware Workstation  
-- Command Prompt and PowerShell  
-- Wireshark  
-- Nmap  
-- Splunk  
-- Kali Linux
-- Ubuntu Linux
+### [Lab 27 — Azure Windows Diagnostic Automation](./Lab-27-Azure-Windows-Diagnostic-Automation-with-GitHub-Actions-OIDC/)
+
+Built an end-to-end Azure automation workflow where GitHub Actions authenticates to Microsoft Azure through **Microsoft Entra ID OIDC workload identity federation**, receives scoped authorization through **Azure RBAC**, starts a Windows Server VM, remotely executes a PowerShell diagnostic toolkit with **Azure VM Run Command**, generates a persistent HTML report, and automatically deallocates the VM.
+
+**Standalone project:** [azure-windows-diagnostic-automation-workflow](https://github.com/johninfra/azure-windows-diagnostic-automation-workflow)
+
+### [Lab 26 — Microsoft Entra ID Administration with PowerShell and Microsoft Graph](./Lab-26-Microsoft-EntraID-Administration-with-PowerShell-and-Microsoft-Graph/)
+
+Used Microsoft Graph PowerShell with delegated OAuth permissions to connect to Microsoft Entra ID, enumerate users and groups, inspect directory roles, validate privileged assignments, and securely terminate the administrative session.
+
+### [Lab 22 — PowerShell Vulnerability Management and Security Audit Framework](./Lab-22-PowerShell-Vulnerability-Management-and-Security-Audit-Framework/)
+
+Built a PowerShell-driven endpoint assessment workflow covering inventory, security controls, services, exposure, and structured risk reporting.
+
+### [Lab 18 — Splunk SIEM Security Monitoring and Alerting Platform](./Lab-18-Splunk-SIEM-Security-Monitoring-and-Alerting-Platform/)
+
+Deployed Splunk, ingested security telemetry, built SPL searches and dashboards, and configured alerting for simulated reconnaissance activity.
+
+### [Lab 12 — Network Traffic Analysis and Security Monitoring](./Lab-12-Network-Traffic-Analysis-and-Security-Monitoring-with-Nmap-Wireshark-and-Splunk/)
+
+Combined Nmap, Wireshark, and Splunk to perform host discovery, service enumeration, packet analysis, network validation, and SIEM-based investigation.
 
 ---
 
-## Professional Summary 
+## Tools and Technologies
 
-CompTIA Security+–certified IT support and IAM professional with hands-on experience supporting Windows environments and administering user access across Active Directory and Microsoft Entra ID. Progressed from help desk support to delegated administrative responsibilities involving identity lifecycle management, security groups, password and MFA support, access reviews, and credential administration. Skilled in Windows and Microsoft 365 troubleshooting, VPN and network connectivity, Event Viewer, PowerShell, and security-focused technical support. Prepared to contribute in Tier 2 IT support, IAM, Microsoft 365 administration, or junior systems administration roles.
+| Area | Technologies |
+|---|---|
+| Cloud | Microsoft Azure, Azure Virtual Machines, Azure resource groups, Azure RBAC, Azure CLI, Azure VM Run Command |
+| Identity | Microsoft Entra ID, Active Directory, Microsoft Graph, App Registrations, Enterprise Applications, OAuth, OIDC |
+| Automation & DevOps | PowerShell, GitHub Actions, CI/CD concepts, workload identity federation |
+| Windows | Windows 10/11, Windows Server 2022, RDP, Event Viewer, Windows Services, Defender, Firewall |
+| Linux | Ubuntu Linux, Kali Linux, SSH, Nginx, systemd |
+| Security Monitoring | Splunk Enterprise, SPL, Sysmon, Windows Security Logs, Windows Event Logs |
+| Networking | TCP/IP, DNS, DHCP, VPN, SMB, Wireshark, Nmap |
+| Virtualization | VMware Workstation, Azure Virtual Machines |
+| IT Operations | ITSM, help desk workflows, incident management, ticket documentation, remote support |
+| Reporting | HTML reporting, PowerShell-generated diagnostics, security and system-health reports |
+
+---
+
+## What This Portfolio Demonstrates
+
+This repository shows progression across multiple layers of enterprise IT:
+
+```text
+End-User Support
+      |
+      v
+Windows / Linux Administration
+      |
+      v
+Networking and Active Directory
+      |
+      v
+Security Monitoring and PowerShell Automation
+      |
+      v
+Microsoft Entra ID and Microsoft Graph
+      |
+      v
+Azure Administration, RBAC, OIDC, and Cloud Automation
+```
+
+The goal is to demonstrate not only familiarity with tools, but the ability to connect **identity, infrastructure, security, automation, and troubleshooting** into repeatable operational workflows.
+
+---
+
+## Professional Summary
+
+CompTIA **Security+** and **A+** certified IT professional focused on **systems administration, Microsoft Azure, identity and access management, cloud security, cybersecurity operations, and Tier 2 technical support**.
+
+Hands-on work in this portfolio includes Windows and Windows Server administration, Active Directory and Microsoft Entra ID, Microsoft Graph, RBAC, OIDC workload identity federation, PowerShell automation, GitHub Actions, Azure VM administration, networking, Splunk SIEM, endpoint security, and structured troubleshooting.
+
+The portfolio demonstrates practical readiness for roles such as **Tier 2 IT Support, Desktop Support, Junior Systems Administration, IAM/Identity Administration, Microsoft 365/Entra Administration, and entry-level cloud or security operations roles**.
+
+---
+
+## Related Portfolio
+
+- **GitHub Profile:** https://github.com/johninfra
+- **Standalone Azure Windows Diagnostic Automation:** https://github.com/johninfra/azure-windows-diagnostic-automation-workflow
+- **Windows IT Diagnostic Toolkit:** https://github.com/johninfra/windows-it-diagnostic-toolkit
+- **Azure Enterprise Administration Lab:** https://github.com/johninfra/azure-enterprise-administration-lab
+- **Azure Identity Governance Console:** https://github.com/johninfra/azure-identity-governance-console
