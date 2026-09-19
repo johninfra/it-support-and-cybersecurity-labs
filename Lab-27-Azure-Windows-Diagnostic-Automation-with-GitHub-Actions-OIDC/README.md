@@ -293,12 +293,19 @@ The report confirmed that the automation successfully collected system, CPU, mem
 
 ### Evidence
 
-Two portfolio screenshots were captured and sanitized before public use:
+#### Azure VM connection validation
 
-- Azure VM RDP connection configuration with public/source IP information redacted.
-- Generated Windows IT Diagnostic HTML report with the RDP endpoint redacted.
+The Azure portal connection view confirms the Windows Server VM used for the lab and the RDP validation path. Public/source IP information and identifying connection details were redacted before publication.
 
-The screenshots are maintained without authentication secrets, passwords, MFA information, or reusable credentials.
+![Azure VM connection validation](./screenshots/lab27-azure-vm-connect-redacted.webp)
+
+#### Generated Windows diagnostic report
+
+The completed automation generated a persistent HTML report from `vm-win01`, including system, CPU, memory, disk, network, connectivity, security, service, and event-log information.
+
+![Windows IT Diagnostic HTML report](./screenshots/lab27-diagnostic-report-redacted.webp)
+
+The published evidence excludes authentication secrets, passwords, MFA information, reusable credentials, and unnecessary public connection details.
 
 ---
 
