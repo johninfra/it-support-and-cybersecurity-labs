@@ -1,5 +1,17 @@
 # Active Directory Password Reset and Ticket Resolution
 
+## Operational Story — Problem, Solution, Testing, Result
+
+| Stage | Evidence-based summary |
+|---|---|
+| **Problem** | A domain user cannot authenticate after forgetting their password, and the support team must restore access while maintaining a traceable ticket. |
+| **Solution** | Opened a simulated help desk ticket, located the user in ADUC, reset the password, and documented ticket closure. |
+| **Testing** | The lab records the ticket state and AD password-reset procedure. The original narrative reports restored account access, but no separate client-login screenshot is included here. |
+| **Observed result** | The documented support workflow reached ticket closure following a simulated password-reset incident. |
+
+**Production consideration:** Verify caller identity using approved support procedures before resetting any credential, require a password change when appropriate, and confirm successful sign-in **before** closing a real ticket. The same reset screenshot previously appeared twice; it should not be treated as two independent validation steps.
+
+
 ## Overview
 This lab demonstrates a common Tier 1 help desk support scenario involving a user password reset in Active Directory. The objective was to simulate a real world support ticket where an end user forgot their password, submitted a support request, and required account access restoration. The ticket was documented, resolved through Active Directory Users and Computers (ADUC), and then properly closed after successful password reset verification.
 
