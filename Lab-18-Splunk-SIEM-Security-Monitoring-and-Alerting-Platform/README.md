@@ -82,7 +82,7 @@ The dashboard provides visibility into:
 
 ---
 
-# Step 1: Splunk Deployment & Troubleshooting
+## Step 1: Splunk Deployment & Troubleshooting
 
 The installation process began with a non functional Splunk environment that required troubleshooting before security monitoring could be performed.
 
@@ -106,7 +106,7 @@ The installation process began with a non functional Splunk environment that req
 
 ---
 
-# Step 2: Authentication Monitoring
+## Step 2: Authentication Monitoring
 
 After log ingestion was operational, authentication related events were analyzed using Splunk Search Processing Language (SPL).
 
@@ -144,7 +144,7 @@ Authentication failures can indicate:
 
 ---
 
-# Step 3: Security Dashboard Development
+## Step 3: Security Dashboard Development
 
 A custom SOC dashboard was created to provide centralized visibility into security activity.
 
@@ -176,7 +176,7 @@ Highlights source systems responsible for suspicious activity.
 
 ---
 
-# Step 4: Reconnaissance Detection
+## Step 4: Reconnaissance Detection
 
 To simulate attacker behavior, an Nmap SYN scan was performed against the local host.
 
@@ -210,7 +210,7 @@ Detecting these activities early improves defensive response capabilities.
 
 ---
 
-# Step 5: Real Time Alert Engineering
+## Step 5: Real Time Alert Engineering
 
 A real time Splunk alert was configured to detect Nmap reconnaissance activity.
 
@@ -241,7 +241,7 @@ This validated:
 
 ---
 
-# SPL Queries Used
+## SPL Queries Used
 
 ## Authentication Failures
 
@@ -275,7 +275,7 @@ index=*
 
 ---
 
-# Security Concepts Demonstrated
+## Security Concepts Demonstrated
 
 - Security Information and Event Management (SIEM)
 - Log Collection & Aggregation
@@ -292,7 +292,7 @@ index=*
 
 ---
 
-# Skills Demonstrated
+## Skills Demonstrated
 
 ## Cybersecurity
 
@@ -319,7 +319,7 @@ index=*
 
 ---
 
-# Key Takeaways
+## Key Takeaways
 
 This lab demonstrates the complete lifecycle of deploying and operating a SIEM platform in a security monitoring environment.
 
@@ -338,6 +338,6 @@ The completed environment successfully collected, analyzed, visualized, and aler
 
 ---
 
-# Resume Bullet
+## Resume Bullet
 
 Built and administered a Splunk Enterprise SIEM environment on Kali Linux, configured Linux Journald log ingestion, developed SPL based threat detection queries, created SOC security dashboards, engineered real time reconnaissance alerts, and successfully detected simulated Nmap port scanning activity through active security monitoring workflows.
