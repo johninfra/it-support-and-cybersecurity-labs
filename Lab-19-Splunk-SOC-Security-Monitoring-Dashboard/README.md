@@ -1,10 +1,24 @@
 # Splunk SOC Security Monitoring Dashboard
 
+## Operational Story — Problem, Solution, Testing, Result
+
+| Stage | Evidence-based summary |
+|---|---|
+| **Problem** | Raw Windows Security and Sysmon events are difficult to triage without a searchable view of authentication failures, process execution, and activity trends. |
+| **Solution** | Built Splunk SPL searches and a SOC dashboard for Windows log ingestion, authentication, Sysmon process creation, command interpreters, and possible brute-force patterns. |
+| **Testing** | The documented dashboard panels and SPL searches were used to explore authentication events, event IDs, process activity, and log-source counts. |
+| **Observed result** | The README records a dashboard snapshot of **69,631 events**, **16 failed logins**, and **51,974 process creations**. These are observed lab/dashboard metrics, not a continuous production monitoring baseline. |
+
+**Metric interpretation:** An earlier narrative says the dashboard analyzed “over 28,000” events, while the later dashboard snapshot reports 69,631. These appear to be different observations; the screenshot's reported snapshot is the specific figure used in the metrics below. “405 monitored hosts” is a dashboard label that requires validating the SPL and data-source scope before describing it as 405 distinct managed endpoints.
+
+**Detection boundary:** The brute-force SPL expression identifies accounts exceeding a simple failed-login count threshold. It does not by itself establish malicious intent, a completed investigation, or an alert's false-positive rate.
+
+
 ## Overview
 
 In this lab, I designed and deployed a Splunk Enterprise SIEM environment to collect, analyze, visualize, and monitor Windows Security Logs and Sysmon telemetry. The goal was to simulate a Security Operations Center (SOC) monitoring environment by building a centralized dashboard capable of tracking authentication activity, process creation, command execution, PowerShell activity, security events, and brute force attack indicators.
 
-The completed dashboard analyzed over 28,000 security events and provided real-time visibility into user authentication activity, Windows process creation, and Sysmon operational logs.
+The dashboard's documented metrics include a 69,631-event snapshot and provide visibility into user authentication activity, Windows process creation, and Sysmon operational logs.
 
 ---
 
