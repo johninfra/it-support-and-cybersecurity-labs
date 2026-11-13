@@ -1,5 +1,15 @@
 # PowerShell Windows Health Check Automation
 
+## Operational Summary
+
+- **Problem:** Manual endpoint triage requires repetitive collection of system, resource, network, and security details.
+- **Solution:** A PowerShell script collects Windows health data and writes a timestamped text report for technician review.
+- **Testing:** The README includes a sample report and a development/output screenshot showing the reported health fields.
+- **Observed result:** A repeatable Windows health snapshot with uptime, CPU, memory, disk, IP address, OS, and Defender status. The project does **not** document benchmarked time savings or fleet-wide deployment.
+
+**Why it matters:** A consistent first-pass diagnostic report improves handoff quality and makes it easier to compare observations during troubleshooting. The value is standardization, not a claimed quantified productivity gain.
+
+
 ## Overview
 
 This lab demonstrates the development of a PowerShell automation tool designed to collect and report key Windows system health information. The script automates the gathering of commonly requested troubleshooting data and exports the results to a timestamped report file.
