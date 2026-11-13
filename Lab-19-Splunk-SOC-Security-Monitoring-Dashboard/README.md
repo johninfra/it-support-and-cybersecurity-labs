@@ -9,8 +9,6 @@
 | **Testing** | The documented dashboard panels and SPL searches were used to explore authentication events, event IDs, process activity, and log-source counts. |
 | **Observed result** | The README records a dashboard snapshot of **69,631 events**, **16 failed logins**, and **51,974 process creations**. These are observed lab/dashboard metrics, not a continuous production monitoring baseline. |
 
-**Metric interpretation:** An earlier narrative says the dashboard analyzed “over 28,000” events, while the later dashboard snapshot reports 69,631. These appear to be different observations; the screenshot's reported snapshot is the specific figure used in the metrics below. “405 monitored hosts” is a dashboard label that requires validating the SPL and data-source scope before describing it as 405 distinct managed endpoints.
-
 **Detection boundary:** The brute-force SPL expression identifies accounts exceeding a simple failed-login count threshold. It does not by itself establish malicious intent, a completed investigation, or an alert's false-positive rate.
 
 
