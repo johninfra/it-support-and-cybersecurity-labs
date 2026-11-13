@@ -1,5 +1,17 @@
 # Splunk SIEM Security Monitoring and Alerting Platform
 
+## Operational Story — Problem, Solution, Testing, Result
+
+| Stage | Evidence-based summary |
+|---|---|
+| **Problem** | Security-relevant Linux authentication and network events are difficult to investigate when log collection or SIEM services are unhealthy. |
+| **Solution** | Repaired Splunk/Linux ingestion issues, queried journald authentication failures with SPL, built dashboards, and configured reconnaissance alerting. |
+| **Testing** | Queried ingested authentication events, inspected dashboard output, generated a local Nmap scan, and documented triggered Splunk alerts. |
+| **Observed result** | Restored searchable log visibility and demonstrated an alert-driven investigation workflow in the lab. This is not proof of comprehensive coverage or low false-positive rates in production. |
+
+**Operational impact:** The value of the project is the complete detection workflow—**fix telemetry → search the evidence → visualize signals → trigger and inspect alerts**—rather than simply installing Splunk. The recorded Nmap activity was a controlled local test, not an actual attacker intrusion.
+
+
 ## Overview
 
 In this lab, I deployed and configured a fully functional Security Information and Event Management (SIEM) platform using Splunk Enterprise on Kali Linux. Starting from a problematic installation, I repaired Linux file and Journald permissions, configured log ingestion, developed security dashboards, created real time alerts, and successfully detected reconnaissance activity.
