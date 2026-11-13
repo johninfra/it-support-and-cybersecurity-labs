@@ -1,5 +1,17 @@
 # Microsoft Entra ID Fundamentals: Tenant Deployment, User Provisioning, and Security Group Administration
 
+## Operational Story — Problem, Solution, Testing, Result
+
+| Stage | Evidence-based summary |
+|---|---|
+| **Problem** | An organization needs centrally managed cloud identities and department-oriented groups before it can introduce repeatable access provisioning and governance. |
+| **Solution** | Established a Microsoft Entra ID test tenant, created simulated employee accounts, and organized users into security groups. |
+| **Testing** | The lab includes Entra admin-center screenshots showing tenant setup, identity objects, and security-group configuration. |
+| **Observed result** | A reusable cloud identity baseline for follow-on IAM labs. Creating groups alone does not verify application access enforcement, Conditional Access, or least-privilege authorization. |
+
+**Lab scope:** The user/group quantities and license shown below describe the **original point-in-time exercise**, not necessarily the current tenant's live configuration. Later IAM, PIM, MFA, and governance controls are documented in separate projects.
+
+
 ## Overview
 
 This lab demonstrates the deployment and administration of a Microsoft Entra ID (formerly Azure Active Directory) tenant by simulating the identity infrastructure of a small technology company. The environment was designed to mirror common enterprise identity management tasks performed by Help Desk Technicians, Systems Administrators, Identity & Access Management (IAM) Administrators, and Security Operations teams.
