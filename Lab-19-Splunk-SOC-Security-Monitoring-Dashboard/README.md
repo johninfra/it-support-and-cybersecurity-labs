@@ -62,7 +62,7 @@ The dashboard's documented metrics include a 69,631-event snapshot and provide v
 
 ---
 
-# Dashboard Overview
+## Dashboard Overview
 
 The completed SOC dashboard provides centralized visibility into Windows security telemetry and Sysmon activity.
 
@@ -174,13 +174,13 @@ This validates successful log ingestion from multiple Windows logging sources.
 
 ---
 
-# Dashboard Screenshot
+## Dashboard Screenshot
 
 ![Splunk SOC Dashboard](screenshots/splunk-soc-dashboard.png1.png)
 
 ---
 
-# Key SPL Searches
+## Key SPL Searches
 
 ## Successful Logins
 
@@ -230,7 +230,7 @@ index=* EventCode=4625
 
 ---
 
-# Results
+## Results
 
 - Successfully deployed Splunk Enterprise SIEM
 - Ingested Windows Security and Sysmon logs
@@ -244,7 +244,7 @@ index=* EventCode=4625
 
 ---
 
-# What I Learned
+## What I Learned
 
 This project provided hands-on experience with SIEM deployment, Windows log ingestion, Sysmon telemetry, SPL query development, security dashboard creation, authentication monitoring, threat detection workflows, and SOC-style event analysis.
 
@@ -252,6 +252,6 @@ The lab closely mirrors many of the responsibilities performed by Security Opera
 
 ---
 
-# Conclusion
+## Conclusion
 
 This project demonstrates the deployment and operation of a Splunk Enterprise SIEM platform for centralized security monitoring and threat detection. By combining Windows Security Logs, Sysmon telemetry, custom SPL searches, authentication monitoring, process analysis, and brute force detection, the lab simulates real-world SOC workflows used to monitor and investigate security events.
