@@ -1,67 +1,73 @@
 # DNS and Network Connectivity Troubleshooting
 
-## Overview
-This lab demonstrates how to diagnose and resolve DNS related network issues.
+## Operational Summary
 
----
+| | |
+|---|---|
+| **Problem** | A domain-connected Windows client experiences name-resolution problems even though IP connectivity can work. |
+| **Solution** | Separate IP reachability from DNS resolution, inspect the resolver configuration and lookup results, then correct the DNS configuration. |
+| **Testing** | Compare the failure state, working IP connectivity, `nslookup` output, and post-change DNS configuration shown in the screenshots. |
+| **Documented result** | The original lab reports that the DNS issue was resolved. The screenshots document the failure, investigation, and change, but do not separately show a clearly labeled post-fix name-resolution retest. |
+| **Scope** | VMware NAT lab with Windows Server 2022 domain controller and domain-joined Windows client. |
 
-## Lab Setup
-- Host Machine: Windows Laptop
-- Virtualization: VMware Workstation Player
-- Domain Controller: Windows Server 2022 DC1
-- Client Machine: Windows 10 or Windows 11 VM joined to the domain
-- Domain: corp.local
-- Network Type: NAT same subnet
-- Primary Tools: Command Prompt, PowerShell, DNS Manager
-- Testing Commands: ipconfig, ping, nslookup, tracert
-- Troubleshooting Focus: DNS resolution and network connectivity validation
+## Environment
 
----
+- Windows Server 2022 domain controller and DNS environment
+- Domain-joined Windows 10/11 client
+- `corp.local` lab domain
+- VMware Workstation Player, NAT network
+- Command Prompt, PowerShell, DNS Manager
+- Diagnostic utilities: `ipconfig`, `ping`, `nslookup`, `tracert`
 
-## Tools Used
-- VMware Workstation Player
-- Windows Server 2022
-- Windows 10 or Windows 11
-- Active Directory Users and Computers
-- DNS Manager
-- Command Prompt
-- PowerShell
-- ipconfig
-- ping
-- nslookup
-- tracert
+## Troubleshooting Workflow and Evidence
 
----
+### 1. Establish the failure
 
-## Process
+Observe that name-based connectivity is failing before changing the client configuration.
 
-### DNS Failure
-![DNS Failure](screenshots/dns-failure2.png)
+![DNS failure observed](screenshots/dns-failure2.png)
 
-### IP Connectivity Works
-![IP Success](screenshots/ip-success.png)
+### 2. Separate network connectivity from name resolution
 
-### DNS Lookup
-![NSLookup](screenshots/nslookup.png)
+Test an IP address directly. If IP reachability works but a hostname does not, DNS becomes a leading hypothesis rather than assuming the entire network is down.
 
-### DNS Fix
-![DNS Fix](screenshots/dns-fix.png)
+![IP connectivity works](screenshots/ip-success.png)
 
----
+### 3. Inspect DNS resolution
+
+Use `nslookup` to investigate the resolver being queried and the returned lookup result.
+
+```powershell
+ipconfig /all
+nslookup <hostname>
+```
+
+Replace `<hostname>` with the intended internal test name when running the command.
+
+![DNS lookup investigation](screenshots/nslookup.png)
+
+### 4. Correct the DNS configuration
+
+Review the client DNS server settings and the DNS service/records as appropriate to the observed fault. The existing lab evidence records a DNS configuration correction.
+
+![DNS configuration correction](screenshots/dns-fix.png)
+
+## Verification and Result
+
+| Validation step | Documentation status |
+|---|---|
+| DNS-related connectivity failure | Screenshot included |
+| Direct IP connectivity | Screenshot included |
+| Resolver lookup investigation | Screenshot included |
+| DNS configuration change | Screenshot included |
+| Independent post-fix lookup and successful domain-name access | **Not separately evidenced in this README** |
+
+The original exercise reports a resolved DNS issue. To make that result independently verifiable, add a post-fix `nslookup` capture and a successful connection to the intended hostname. Do not treat a configuration screenshot alone as proof of successful DNS resolution.
+
+## Why This Matters in IT Operations
+
+DNS problems often appear to end users as failed web access, inability to reach file shares, or domain-resource failures. Checking IP connectivity first helps avoid unnecessary adapter resets or broader network changes. In Active Directory environments, confirm that domain clients use the intended internal DNS resolvers.
 
 ## Skills Demonstrated
-- DNS troubleshooting and resolution  
-- Network connectivity testing using ping  
-- IP configuration analysis  
-- Command line networking tools  
-- Identifying and resolving network issues
 
----
-
-## Conclusion
-This lab showed how DNS issues can affect network connectivity and how basic troubleshooting tools can be used to identify and resolve the problem. By testing IP configuration, verifying DNS settings, using command line tools, and checking connectivity between the client and domain controller, this lab demonstrated a practical troubleshooting process used in real IT support environments.
-
----
-
-## Result
-Successfully identified and resolved DNS issues affecting connectivity.
+Windows DNS troubleshooting, hypothesis-driven diagnosis, DNS client configuration, name resolution testing, domain connectivity, and evidence-based incident documentation.
