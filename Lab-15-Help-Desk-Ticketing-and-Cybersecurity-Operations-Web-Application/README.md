@@ -1,5 +1,17 @@
 # Help Desk Ticketing and Cybersecurity Operations Web Application
 
+## Operational Story — Problem, Solution, Testing, Result
+
+| Stage | Evidence-based summary |
+|---|---|
+| **Problem** | Help desk incidents, basic identity tasks, and security alerts are often handled in separate interfaces, making it harder to demonstrate a unified technician workflow. |
+| **Solution** | Built a React/Node.js/SQLite lab application with ticket states, submission forms, simulated Active Directory actions, security-alert widgets, and operational dashboards. |
+| **Testing** | The lab documents browser-level functionality and responsive layout testing, with screenshots of the landing page, tickets, submission form, identity panel, and security dashboard. |
+| **Observed result** | A working lab demonstration of ITSM and security-operations interface concepts. The Active Directory-style actions and alert activity are **simulations**, not evidence of live AD or SIEM integration. |
+
+**Operational relevance:** An IT technician needs to track a request from intake through triage, work, escalation, and resolution. This application models those steps while keeping demonstration data separate from real infrastructure. There is no documented automated integration or independent end-to-end test suite in this README.
+
+
 ## Overview
 This lab demonstrates the creation of a modern IT support and cybersecurity operations web application using AI assisted development tools. The objective was to simulate a real world enterprise help desk environment where technicians can manage support tickets, monitor security alerts, and perform Active Directory style account management tasks.
 
