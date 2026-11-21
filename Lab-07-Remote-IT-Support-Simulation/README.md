@@ -56,7 +56,7 @@ Remote Desktop was turned on under **Settings > System > Remote Desktop**, which
 
 ### 2. Identify the fault
 
-**Network Connections** showed `Ethernet0` (Intel 82574L) with a status of **Disabled**.
+With the remote session unavailable, **Network Connections** was checked from the VM console and showed `Ethernet0` (Intel 82574L) with a status of **Disabled**.
 
 ![Ethernet0 shown as Disabled](screenshots/network-disabled.png)
 
@@ -79,7 +79,7 @@ Remote Desktop was turned on under **Settings > System > Remote Desktop**, which
 
 ### 4. Remediate
 
-`Ethernet0` was re-enabled. Network Connections now reports the adapter as connected to the `corp.local` network instead of Disabled.
+Because a disabled adapter cuts off the RDP session, recovery was performed from the VMware VM console, which is the lab's out-of-band access path. `Ethernet0` was re-enabled there, and Network Connections now reports the adapter as connected to the `corp.local` network instead of Disabled. The RDP session was then available again for verification.
 
 ![Ethernet0 re-enabled and connected to corp.local](screenshots/network-enabled.png)
 
@@ -152,7 +152,7 @@ RDP and third-party remote tools are high-value attack surface, so how they are 
 
 ## Limitations and Production Considerations
 
-- **Recovery path:** A disabled network adapter drops RDP and any other remote-support session, since they all depend on the network. In production, recovery of a down NIC needs an out-of-band path: hypervisor or VM console, iDRAC/iLO, on-site hands, or an endpoint-management agent that can remediate locally. This lab does not model out-of-band recovery.
+- **Recovery path:** A disabled network adapter drops RDP and any other remote-support session, since they all depend on the network. In production, recovery of a down NIC needs an out-of-band path: hypervisor or VM console, iDRAC/iLO, on-site hands, or an endpoint-management agent that can remediate locally. This lab used the VMware VM console as that path; it does not model physical or remote-management-controller recovery.
 - **Root cause:** Re-enabling the adapter restores service but does not explain why it was disabled. A full investigation would check Event Viewer (System log), recent driver or update changes, power-management settings, and whether a policy or endpoint tool is disabling it.
 - **Documentation:** A real ticket would record the reported symptom, user impact, root cause, fix, verification, and any follow-up, and confirm resolution with the user before closing.
 - **Scale:** One VM and one fault. Fleet-wide detection of disabled adapters would use PowerShell, an RMM tool, or monitoring rather than manual checks.
