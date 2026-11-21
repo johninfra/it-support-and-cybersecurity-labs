@@ -16,7 +16,7 @@ A simulated Tier 1/Tier 2 remote support ticket: a user reports lost internet ac
 | **Resolution** | Adapter re-enabled; IP configuration and internet reachability verified |
 | **Verification** | `ping 8.8.8.8`: 4 sent, 4 received, **0% loss**, 14–20 ms (avg 16 ms) |
 | **Tools** | RDP, Command Prompt, `ipconfig`, `ping`, Windows Network Connections |
-| **Environment** | VMware Workstation Player, NAT networking, Windows Server 2022 VM |
+| **Environment** | VMware Workstation Player, NAT networking, Windows client VM (`CLIENT1`) |
 
 ---
 
@@ -35,8 +35,7 @@ A simulated Tier 1/Tier 2 remote support ticket: a user reports lost internet ac
 | Hypervisor | VMware Workstation Player on a Windows laptop |
 | Network | VMware NAT, subnet `192.168.110.0/24`, default gateway `192.168.110.2` |
 | Technician machine | Windows host PC |
-| Remote target | Windows Server 2022 Standard Evaluation VM (build 20348) at `192.168.110.129` |
-| Windows 11 endpoint | `CLIENT1.corp.local`, Remote Desktop enabled through Settings |
+| Remote target (client machine) | `CLIENT1.corp.local`, VMware VM at `192.168.110.129`; the session desktop shows a Windows Server 2022 Standard Evaluation (build 20348) watermark |
 | Network adapter | `Ethernet0`, Intel(R) 82574L Gigabit Network Connection (VMware virtual NIC) |
 | Domain context | `corp.local` environment shared with the other directory and support labs in this repository |
 | Test account | `jtest` (lab account) |
@@ -47,7 +46,7 @@ A simulated Tier 1/Tier 2 remote support ticket: a user reports lost internet ac
 
 ### 1. Enable and establish remote access
 
-Remote Desktop was turned on under **Settings > System > Remote Desktop**, which also exposes the PC name used to connect and the list of users allowed to connect. An RDP session was then opened to `192.168.110.129`.
+On the client machine (`CLIENT1.corp.local`), Remote Desktop was turned on under **Settings > System > Remote Desktop**, which also exposes the PC name used to connect and the list of users allowed to connect. An RDP session was then opened to `192.168.110.129`.
 
 ![Remote Desktop enabled in Windows Settings](screenshots/rdp-enabled.png)
 ![Active RDP session to 192.168.110.129](screenshots/rdp-connection.png)
