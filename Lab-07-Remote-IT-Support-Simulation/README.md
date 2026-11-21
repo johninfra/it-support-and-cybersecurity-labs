@@ -15,7 +15,7 @@ A simulated Tier 1/Tier 2 remote support ticket: a user reports lost internet ac
 | **Root cause** | Network adapter `Ethernet0` in a **Disabled** state |
 | **Resolution** | Adapter re-enabled; IP configuration and internet reachability verified |
 | **Verification** | `ping 8.8.8.8`: 4 sent, 4 received, **0% loss**, 14–20 ms (avg 16 ms) |
-| **Tools** | RDP, AnyDesk, Command Prompt, `ipconfig`, `ping`, Windows Network Connections |
+| **Tools** | RDP, Command Prompt, `ipconfig`, `ping`, Windows Network Connections |
 | **Environment** | VMware Workstation Player, NAT networking, Windows Server 2022 VM |
 
 ---
@@ -145,14 +145,14 @@ RDP and third-party remote tools are high-value attack surface, so how they are 
 - **Exposure:** Never publish TCP 3389 directly to the internet. Reach it through a VPN, Remote Desktop Gateway, or a Zero Trust access layer, with MFA.
 - **Firewall scoping:** Restrict inbound 3389 to management subnets.
 - **Auditing:** Review Security log Event ID 4624 (Logon Type 10, RemoteInteractive) and 4625 (failed logon), plus the `Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational` log (Event ID 1149).
-- **Third-party tools (for example AnyDesk):** Govern unattended-access passwords, connection-approval prompts, and allowlists through policy rather than leaving defaults.
+- **Third-party remote-access tools (not used in this lab):** Govern unattended-access passwords, connection-approval prompts, and allowlists through policy rather than leaving defaults.
 - **This lab:** Ran entirely on an isolated VMware NAT network with no inbound exposure.
 
 ---
 
 ## Limitations and Production Considerations
 
-- **Recovery path:** A disabled network adapter drops RDP and AnyDesk sessions, since both depend on the network. In production, recovery of a down NIC needs an out-of-band path: hypervisor or VM console, iDRAC/iLO, on-site hands, or an endpoint-management agent that can remediate locally. This lab does not model out-of-band recovery.
+- **Recovery path:** A disabled network adapter drops RDP and any other remote-support session, since they all depend on the network. In production, recovery of a down NIC needs an out-of-band path: hypervisor or VM console, iDRAC/iLO, on-site hands, or an endpoint-management agent that can remediate locally. This lab does not model out-of-band recovery.
 - **Root cause:** Re-enabling the adapter restores service but does not explain why it was disabled. A full investigation would check Event Viewer (System log), recent driver or update changes, power-management settings, and whether a policy or endpoint tool is disabling it.
 - **Documentation:** A real ticket would record the reported symptom, user impact, root cause, fix, verification, and any follow-up, and confirm resolution with the user before closing.
 - **Scale:** One VM and one fault. Fleet-wide detection of disabled adapters would use PowerShell, an RMM tool, or monitoring rather than manual checks.
