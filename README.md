@@ -10,6 +10,8 @@ The portfolio progresses from core help desk and infrastructure work into more a
 
 Each lab includes implementation details, commands, screenshots, troubleshooting notes, security considerations, and business or operational context where applicable.
 
+All labs were built, configured, and tested by me in my own environment. I used Claude (AI) to help edit and standardize the documentation.
+
 ---
 
 ## Core Competencies
